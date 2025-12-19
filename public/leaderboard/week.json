@@ -1,6 +1,6 @@
 {
   "period": "week",
-  "updatedAt": 1766170997475,
+  "updatedAt": 1766178014890,
   "startDate": "2025-12-12",
   "endDate": "2025-12-19",
   "hiddenRoles": [],
@@ -186,15 +186,15 @@
       ]
     },
     {
-      "username": "manmeetsantre",
+      "username": "ShashwatXD",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/190877081?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/71784456?v=4",
       "role": "Contributor",
-      "total_points": 6,
+      "total_points": 4,
       "activity_breakdown": {
         "PR opened": {
-          "count": 2,
-          "points": 4
+          "count": 1,
+          "points": 2
         },
         "Issue opened": {
           "count": 2,
@@ -203,22 +203,17 @@
       },
       "daily_activity": [
         {
-          "date": "2025-12-16",
+          "date": "2025-12-19",
           "count": 1,
           "points": 2
         },
         {
-          "date": "2025-12-12",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-12-14",
+          "date": "2025-12-19",
           "count": 1,
           "points": 1
         },
         {
-          "date": "2025-12-12",
+          "date": "2025-12-19",
           "count": 1,
           "points": 1
         }
@@ -336,6 +331,35 @@
         },
         {
           "date": "2025-12-16",
+          "count": 1,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "username": "manmeetsantre",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/190877081?v=4",
+      "role": "Contributor",
+      "total_points": 3,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 2
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-12-16",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-12-14",
           "count": 1,
           "points": 1
         }

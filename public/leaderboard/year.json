@@ -1,6 +1,6 @@
 {
   "period": "year",
-  "updatedAt": 1766171005486,
+  "updatedAt": 1766178024987,
   "startDate": "2024-12-19",
   "endDate": "2025-12-19",
   "hiddenRoles": [],
@@ -1176,6 +1176,40 @@
           "date": "2025-09-20",
           "count": 1,
           "points": 5
+        }
+      ]
+    },
+    {
+      "username": "ShashwatXD",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/71784456?v=4",
+      "role": "Contributor",
+      "total_points": 4,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 2
+        },
+        "Issue opened": {
+          "count": 2,
+          "points": 2
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-12-19",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-12-19",
+          "count": 1,
+          "points": 1
+        },
+        {
+          "date": "2025-12-19",
+          "count": 1,
+          "points": 1
         }
       ]
     },
