@@ -155,3 +155,6 @@ npx tsx scripts/generateLeaderboard.ts
 3. Commit with conventional messages
 4. Open a PR
 Please keep changes small and add context in PR description. For questions, Contant on slack.
+
+##  Demo Site
+https://circuitverse-leaderboard.vercel.app/
