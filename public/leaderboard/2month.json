@@ -1,196 +1,10 @@
 {
-  "period": "year",
-
-  "updatedAt": 1766254720012,
-
-  "startDate": "2024-12-20",
+  "period": "2month",
+  "updatedAt": 1766251645362,
+  "startDate": "2025-10-21",
   "endDate": "2025-12-20",
   "hiddenRoles": [],
   "entries": [
-    {
-      "username": "salmoneatenbybear",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/177742943?v=4",
-      "role": "Contributor",
-      "total_points": 79,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 2,
-          "points": 4
-        },
-        "PR merged": {
-          "count": 15,
-          "points": 75
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-12-07",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-12-05",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-12-08",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-12-05",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-08-31",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-08-27",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-08-24",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-08-21",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-08-19",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-08-19",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-08-17",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-08-22",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-08-19",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-08-12",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-08-12",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-08-11",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-08-08",
-          "count": 1,
-          "points": 5
-        }
-      ]
-    },
-    {
-      "username": "JatsuAkaYashvant",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/146776812?v=4",
-      "role": "Contributor",
-      "total_points": 65,
-      "activity_breakdown": {
-        "PR merged": {
-          "count": 13,
-          "points": 65
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-10-30",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-09-21",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-09-14",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-08-31",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-08-31",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-08-28",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-08-12",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-08-06",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-08-06",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-07-30",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-07-29",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-07-21",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-07-19",
-          "count": 1,
-          "points": 5
-        }
-      ]
-    },
     {
       "username": "naman79820",
       "name": null,
@@ -316,56 +130,6 @@
           "date": "2025-11-29",
           "count": 1,
           "points": 1
-        }
-      ]
-    },
-    {
-      "username": "ThatDeparted2061",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/166894150?v=4",
-      "role": "Contributor",
-      "total_points": 35,
-      "activity_breakdown": {
-        "PR merged": {
-          "count": 7,
-          "points": 35
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-09-20",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-11-30",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-09-15",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-09-17",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-09-16",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-09-06",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-07-29",
-          "count": 1,
-          "points": 5
         }
       ]
     },
@@ -610,159 +374,6 @@
       ]
     },
     {
-      "username": "tachyons",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-      "role": "Contributor",
-      "total_points": 20,
-      "activity_breakdown": {
-        "PR merged": {
-          "count": 4,
-          "points": 20
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-10-09",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-08-31",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-08-25",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-08-25",
-          "count": 1,
-          "points": 5
-        }
-      ]
-    },
-    {
-      "username": "092vk",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/123629919?v=4",
-      "role": "Contributor",
-      "total_points": 20,
-      "activity_breakdown": {
-        "PR merged": {
-          "count": 4,
-          "points": 20
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-09-01",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-08-24",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-08-24",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-07-29",
-          "count": 1,
-          "points": 5
-        }
-      ]
-    },
-    {
-      "username": "senbo1",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/102225113?v=4",
-      "role": "Contributor",
-      "total_points": 20,
-      "activity_breakdown": {
-        "PR merged": {
-          "count": 4,
-          "points": 20
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-08-31",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-09-03",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-09-03",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-08-21",
-          "count": 1,
-          "points": 5
-        }
-      ]
-    },
-    {
-      "username": "Nihal4777",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/65150640?v=4",
-      "role": "Contributor",
-      "total_points": 18,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 2
-        },
-        "PR merged": {
-          "count": 3,
-          "points": 15
-        },
-        "Issue opened": {
-          "count": 1,
-          "points": 1
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-12-20",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-12-20",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-08-14",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-07-29",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-12-04",
-          "count": 1,
-          "points": 1
-        }
-      ]
-    },
-    {
       "username": "ghanshyam2005singh",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/56252619?v=4",
@@ -798,6 +409,88 @@
           "date": "2025-12-08",
           "count": 1,
           "points": 5
+        }
+      ]
+    },
+    {
+      "username": "salmoneatenbybear",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/177742943?v=4",
+      "role": "Contributor",
+      "total_points": 14,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 2,
+          "points": 4
+        },
+        "PR merged": {
+          "count": 2,
+          "points": 10
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-12-07",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-12-05",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-12-08",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2025-12-05",
+          "count": 1,
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "Nihal4777",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/65150640?v=4",
+      "role": "Contributor",
+      "total_points": 13,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 2
+        },
+        "PR merged": {
+          "count": 2,
+          "points": 10
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-12-20",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-12-20",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2025-11-30",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2025-12-04",
+          "count": 1,
+          "points": 1
         }
       ]
     },
@@ -1087,6 +780,26 @@
       ]
     },
     {
+      "username": "JatsuAkaYashvant",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/146776812?v=4",
+      "role": "Contributor",
+      "total_points": 5,
+      "activity_breakdown": {
+        "PR merged": {
+          "count": 1,
+          "points": 5
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-10-30",
+          "count": 1,
+          "points": 5
+        }
+      ]
+    },
+    {
       "username": "vnydv",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/96142751?v=4",
@@ -1127,9 +840,9 @@
       ]
     },
     {
-      "username": "akramcodez",
+      "username": "ThatDeparted2061",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/179671552?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/166894150?v=4",
       "role": "Contributor",
       "total_points": 5,
       "activity_breakdown": {
@@ -1140,16 +853,16 @@
       },
       "daily_activity": [
         {
-          "date": "2025-09-09",
+          "date": "2025-11-30",
           "count": 1,
           "points": 5
         }
       ]
     },
     {
-      "username": "aryanndwi123",
+      "username": "Stitipragyanbarik",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/100300789?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/123853301?v=4",
       "role": "Contributor",
       "total_points": 5,
       "activity_breakdown": {
@@ -1160,7 +873,7 @@
       },
       "daily_activity": [
         {
-          "date": "2025-09-20",
+          "date": "2025-11-03",
           "count": 1,
           "points": 5
         }
@@ -3133,17 +2846,6 @@
       "contributor_avatar_url": "https://avatars.githubusercontent.com/u/146776812?v=4"
     },
     {
-      "slug": "pr-merged-3498142203",
-      "type": "PR Merged",
-      "title": "chore: add funding json",
-      "closed_at": "2025-10-09T08:25:11Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6280",
-      "contributor": "tachyons",
-      "contributor_name": "tachyons",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4"
-    },
-    {
       "slug": "pr-merged-3460169003",
       "type": "PR Merged",
       "title": "Expected to return JSON but returning string",
@@ -3153,28 +2855,6 @@
       "contributor": "vnydv",
       "contributor_name": "vnydv",
       "contributor_avatar_url": "https://avatars.githubusercontent.com/u/96142751?v=4"
-    },
-    {
-      "slug": "pr-merged-3437435722",
-      "type": "PR Merged",
-      "title": "Enable R8 optimization and add ProGuard rules",
-      "closed_at": "2025-09-21T16:51:22Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/mobile-app/pull/438",
-      "contributor": "JatsuAkaYashvant",
-      "contributor_name": "JatsuAkaYashvant",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/146776812?v=4"
-    },
-    {
-      "slug": "pr-merged-3428040114",
-      "type": "PR Merged",
-      "title": "chore: fix embed failure",
-      "closed_at": "2025-09-20T14:57:56Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6072",
-      "contributor": "ThatDeparted2061",
-      "contributor_name": "ThatDeparted2061",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/166894150?v=4"
     },
     {
       "slug": "pr-merged-3427495630",
@@ -3199,488 +2879,26 @@
       "contributor_avatar_url": "https://avatars.githubusercontent.com/u/166894150?v=4"
     },
     {
-      "slug": "pr-merged-3416131746",
+      "slug": "pr-merged-3193400007",
       "type": "PR Merged",
-      "title": "chore: create conventional-commit workflow",
-      "closed_at": "2025-09-15T19:33:45Z",
+      "title": "Feat shift register",
+      "closed_at": "2025-11-30T11:58:55Z",
       "points": 5,
-      "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/656",
-      "contributor": "ThatDeparted2061",
-      "contributor_name": "ThatDeparted2061",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/166894150?v=4"
-    },
-    {
-      "slug": "pr-merged-3413645182",
-      "type": "PR Merged",
-      "title": "fix: change outdir for Dockerfile.production",
-      "closed_at": "2025-09-17T08:02:25Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6061",
-      "contributor": "ThatDeparted2061",
-      "contributor_name": "ThatDeparted2061",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/166894150?v=4"
-    },
-    {
-      "slug": "pr-merged-3392039667",
-      "type": "PR Merged",
-      "title": "Migrate share_plus to v11.1.0 and upgrade AGP and Gradle version",
-      "closed_at": "2025-09-14T17:01:01Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/mobile-app/pull/436",
-      "contributor": "JatsuAkaYashvant",
-      "contributor_name": "JatsuAkaYashvant",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/146776812?v=4"
-    },
-    {
-      "slug": "pr-merged-3381627306",
-      "type": "PR Merged",
-      "title": "FEATURE: Update Testbench ui/ux",
-      "closed_at": "2025-09-16T06:37:56Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/650",
-      "contributor": "ThatDeparted2061",
-      "contributor_name": "ThatDeparted2061",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/166894150?v=4"
-    },
-    {
-      "slug": "pr-merged-3377177827",
-      "type": "PR Merged",
-      "title": "fix v1 infinite loop",
-      "closed_at": "2025-09-06T06:25:53Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/647",
-      "contributor": "ThatDeparted2061",
-      "contributor_name": "ThatDeparted2061",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/166894150?v=4"
-    },
-    {
-      "slug": "pr-merged-3374555570",
-      "type": "PR Merged",
-      "title": "fix: rtl modal close buttons position",
-      "closed_at": "2025-09-09T11:00:40Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6034",
-      "contributor": "akramcodez",
-      "contributor_name": "akramcodez",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/179671552?v=4"
-    },
-    {
-      "slug": "pr-merged-3370446378",
-      "type": "PR Merged",
-      "title": "Final Blog : Project 5 : Enhanced Verilog Support and Stability",
-      "closed_at": "2025-09-01T14:47:58Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/Blog/pull/249",
-      "contributor": "092vk",
-      "contributor_name": "092vk",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/123629919?v=4"
-    },
-    {
-      "slug": "pr-merged-3370020707",
-      "type": "PR Merged",
-      "title": "Final report for GSoC 2025 Project 7",
-      "closed_at": "2025-08-31T16:29:42Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/Blog/pull/248",
-      "contributor": "JatsuAkaYashvant",
-      "contributor_name": "JatsuAkaYashvant",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/146776812?v=4"
-    },
-    {
-      "slug": "pr-merged-3369985531",
-      "type": "PR Merged",
-      "title": "Improve UX",
-      "closed_at": "2025-08-31T09:26:34Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/mobile-app/pull/433",
-      "contributor": "JatsuAkaYashvant",
-      "contributor_name": "JatsuAkaYashvant",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/146776812?v=4"
-    },
-    {
-      "slug": "pr-merged-3368922043",
-      "type": "PR Merged",
-      "title": "Upgrade to rails 8",
-      "closed_at": "2025-08-31T18:03:36Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6022",
-      "contributor": "tachyons",
-      "contributor_name": "tachyons",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4"
-    },
-    {
-      "slug": "pr-merged-3364363061",
-      "type": "PR Merged",
-      "title": "feat(blog): address Org Admin feedback and update blog",
-      "closed_at": "2025-08-31T11:42:40Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/Blog/pull/247",
-      "contributor": "salmoneatenbybear",
-      "contributor_name": "salmoneatenbybear",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/177742943?v=4"
-    },
-    {
-      "slug": "pr-merged-3351660885",
-      "type": "PR Merged",
-      "title": "Revert \"chore(deps):(deps): bump get_it from 8.0.3 to 8.2.0\"",
-      "closed_at": "2025-08-25T13:29:26Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/mobile-app/pull/430",
-      "contributor": "tachyons",
-      "contributor_name": "tachyons",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4"
-    },
-    {
-      "slug": "pr-merged-3351444228",
-      "type": "PR Merged",
-      "title": "Fix: Remove flutter_facebook_auth dependency",
-      "closed_at": "2025-08-28T16:26:17Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/mobile-app/pull/429",
-      "contributor": "JatsuAkaYashvant",
-      "contributor_name": "JatsuAkaYashvant",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/146776812?v=4"
-    },
-    {
-      "slug": "pr-merged-3351255626",
-      "type": "PR Merged",
-      "title": "feat(blog): project 1 final eval blog",
-      "closed_at": "2025-08-27T13:26:16Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/Blog/pull/246",
-      "contributor": "salmoneatenbybear",
-      "contributor_name": "salmoneatenbybear",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/177742943?v=4"
-    },
-    {
-      "slug": "pr-merged-3349918111",
-      "type": "PR Merged",
-      "title": "Project 3 Blog",
-      "closed_at": "2025-08-31T18:08:19Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/Blog/pull/245",
-      "contributor": "senbo1",
-      "contributor_name": "senbo1",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/102225113?v=4"
-    },
-    {
-      "slug": "pr-merged-3349616368",
-      "type": "PR Merged",
-      "title": "Improve CI/CD workflow",
-      "closed_at": "2025-08-25T06:07:41Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/mobile-app/pull/428",
-      "contributor": "tachyons",
-      "contributor_name": "tachyons",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4"
-    },
-    {
-      "slug": "pr-merged-3349195832",
-      "type": "PR Merged",
-      "title": "Fixed logic for Verilog Code of Adder",
-      "closed_at": "2025-08-24T07:58:23Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/645",
-      "contributor": "092vk",
-      "contributor_name": "092vk",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/123629919?v=4"
-    },
-    {
-      "slug": "pr-merged-3348042021",
-      "type": "PR Merged",
-      "title": "feat: Add Filters to Search Page for both project and user ",
-      "closed_at": "2025-09-03T10:07:35Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6001",
-      "contributor": "senbo1",
-      "contributor_name": "senbo1",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/102225113?v=4"
-    },
-    {
-      "slug": "pr-merged-3347419131",
-      "type": "PR Merged",
-      "title": "perf: preload circuit previews",
-      "closed_at": "2025-08-24T08:35:29Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5996",
-      "contributor": "salmoneatenbybear",
-      "contributor_name": "salmoneatenbybear",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/177742943?v=4"
-    },
-    {
-      "slug": "pr-merged-3346516728",
-      "type": "PR Merged",
-      "title": "fix: adds backfill for project and stars count ",
-      "closed_at": "2025-09-03T10:08:05Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5993",
-      "contributor": "senbo1",
-      "contributor_name": "senbo1",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/102225113?v=4"
-    },
-    {
-      "slug": "pr-merged-3338794067",
-      "type": "PR Merged",
-      "title": "Add cursor based pagination to tags page for explore",
-      "closed_at": "2025-08-21T07:59:22Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5987",
-      "contributor": "salmoneatenbybear",
-      "contributor_name": "salmoneatenbybear",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/177742943?v=4"
-    },
-    {
-      "slug": "pr-merged-3330869347",
-      "type": "PR Merged",
-      "title": "Update all Explore specs to use direct english text instead of I18n keys #5982",
-      "closed_at": "2025-08-19T09:21:35Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5983",
-      "contributor": "salmoneatenbybear",
-      "contributor_name": "salmoneatenbybear",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/177742943?v=4"
-    },
-    {
-      "slug": "pr-merged-3330704448",
-      "type": "PR Merged",
-      "title": "Update all contest specs to use direct english text instead of I18n keys",
-      "closed_at": "2025-08-19T09:22:01Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5982",
-      "contributor": "salmoneatenbybear",
-      "contributor_name": "salmoneatenbybear",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/177742943?v=4"
-    },
-    {
-      "slug": "pr-merged-3325860383",
-      "type": "PR Merged",
-      "title": "feat: Added verilog terminal",
-      "closed_at": "2025-08-24T07:56:31Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/640",
-      "contributor": "092vk",
-      "contributor_name": "092vk",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/123629919?v=4"
-    },
-    {
-      "slug": "pr-merged-3324709113",
-      "type": "PR Merged",
-      "title": "Explore Page",
-      "closed_at": "2025-08-17T17:44:12Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5977",
-      "contributor": "salmoneatenbybear",
-      "contributor_name": "salmoneatenbybear",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/177742943?v=4"
-    },
-    {
-      "slug": "pr-merged-3313541831",
-      "type": "PR Merged",
-      "title": "feat: contest leaderboard",
-      "closed_at": "2025-08-22T08:50:53Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5975",
-      "contributor": "salmoneatenbybear",
-      "contributor_name": "salmoneatenbybear",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/177742943?v=4"
-    },
-    {
-      "slug": "pr-merged-3309234904",
-      "type": "PR Merged",
-      "title": "il8n: remove hard coded english + make UI RTL safe",
-      "closed_at": "2025-08-19T12:49:55Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5966",
-      "contributor": "salmoneatenbybear",
-      "contributor_name": "salmoneatenbybear",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/177742943?v=4"
-    },
-    {
-      "slug": "pr-merged-3308868949",
-      "type": "PR Merged",
-      "title": "fix(users): make votes use ActsAsVotable::Vote (as: :voter) to prevent NameError on user destroy",
-      "closed_at": "2025-08-12T11:32:23Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5964",
-      "contributor": "salmoneatenbybear",
-      "contributor_name": "salmoneatenbybear",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/177742943?v=4"
-    },
-    {
-      "slug": "pr-merged-3307559616",
-      "type": "PR Merged",
-      "title": "refactor(api): remove duplicate image_preview attr in ProjectSerializer",
-      "closed_at": "2025-08-12T11:41:30Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5962",
-      "contributor": "salmoneatenbybear",
-      "contributor_name": "salmoneatenbybear",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/177742943?v=4"
-    },
-    {
-      "slug": "pr-merged-3307457010",
-      "type": "PR Merged",
-      "title": "Enhance Simulator Download & External Link Handling with Android 13+ Media Support",
-      "closed_at": "2025-08-12T14:37:36Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/mobile-app/pull/421",
-      "contributor": "JatsuAkaYashvant",
-      "contributor_name": "JatsuAkaYashvant",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/146776812?v=4"
-    },
-    {
-      "slug": "pr-merged-3304931261",
-      "type": "PR Merged",
-      "title": "Fix withdraw behaviour post contest",
-      "closed_at": "2025-08-11T08:42:13Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5957",
-      "contributor": "salmoneatenbybear",
-      "contributor_name": "salmoneatenbybear",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/177742943?v=4"
-    },
-    {
-      "slug": "pr-merged-3293913212",
-      "type": "PR Merged",
-      "title": "Share button in the Featured Circuit Card",
-      "closed_at": "2025-08-06T17:09:56Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/mobile-app/pull/417",
-      "contributor": "JatsuAkaYashvant",
-      "contributor_name": "JatsuAkaYashvant",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/146776812?v=4"
-    },
-    {
-      "slug": "pr-merged-3292672390",
-      "type": "PR Merged",
-      "title": "Project details pre-fills saved data and added tags",
-      "closed_at": "2025-08-06T17:02:45Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/mobile-app/pull/415",
-      "contributor": "JatsuAkaYashvant",
-      "contributor_name": "JatsuAkaYashvant",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/146776812?v=4"
-    },
-    {
-      "slug": "pr-merged-3290251659",
-      "type": "PR Merged",
-      "title": "Add GSoC 2025 Project 6 Final Report",
-      "closed_at": "2025-08-14T08:32:10Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/Blog/pull/244",
+      "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/624",
       "contributor": "Nihal4777",
       "contributor_name": "Nihal4777",
       "contributor_avatar_url": "https://avatars.githubusercontent.com/u/65150640?v=4"
     },
     {
-      "slug": "pr-merged-3279693167",
+      "slug": "pr-merged-2766214763",
       "type": "PR Merged",
-      "title": "feat(gsoc'24): Update simulatorvue action to use version parameter lo…",
-      "closed_at": "2025-09-20T16:33:58Z",
+      "title": "docs(contributing): fix typos, improve clarity, and enhance formatting in CONTRIBUTING.md",
+      "closed_at": "2025-11-03T11:41:47Z",
       "points": 5,
-      "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5948",
-      "contributor": "aryanndwi123",
-      "contributor_name": "aryanndwi123",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/100300789?v=4"
-    },
-    {
-      "slug": "pr-merged-3277551490",
-      "type": "PR Merged",
-      "title": "Feat/add sorting",
-      "closed_at": "2025-08-21T14:48:41Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5946",
-      "contributor": "senbo1",
-      "contributor_name": "senbo1",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/102225113?v=4"
-    },
-    {
-      "slug": "pr-merged-3276666390",
-      "type": "PR Merged",
-      "title": "Profile card revamp",
-      "closed_at": "2025-07-30T16:48:02Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/mobile-app/pull/411",
-      "contributor": "JatsuAkaYashvant",
-      "contributor_name": "JatsuAkaYashvant",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/146776812?v=4"
-    },
-    {
-      "slug": "pr-merged-3269710224",
-      "type": "PR Merged",
-      "title": "Project re-editing feature",
-      "closed_at": "2025-07-29T17:06:00Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/mobile-app/pull/409",
-      "contributor": "JatsuAkaYashvant",
-      "contributor_name": "JatsuAkaYashvant",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/146776812?v=4"
-    },
-    {
-      "slug": "pr-merged-3266976494",
-      "type": "PR Merged",
-      "title": "Contests refactor – validations, routes, controllers, specs",
-      "closed_at": "2025-08-08T16:53:21Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5943",
-      "contributor": "salmoneatenbybear",
-      "contributor_name": "salmoneatenbybear",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/177742943?v=4"
-    },
-    {
-      "slug": "pr-merged-3245442946",
-      "type": "PR Merged",
-      "title": "Featured circuit card",
-      "closed_at": "2025-07-21T06:58:17Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/mobile-app/pull/406",
-      "contributor": "JatsuAkaYashvant",
-      "contributor_name": "JatsuAkaYashvant",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/146776812?v=4"
-    },
-    {
-      "slug": "pr-merged-3245404979",
-      "type": "PR Merged",
-      "title": "chore: upgrade flutter_lints from 5.0.0 to 6.0.0",
-      "closed_at": "2025-07-19T18:46:31Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/mobile-app/pull/405",
-      "contributor": "JatsuAkaYashvant",
-      "contributor_name": "JatsuAkaYashvant",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/146776812?v=4"
-    },
-    {
-      "slug": "pr-merged-3241684581",
-      "type": "PR Merged",
-      "title": "Midsem Report Project 2 - Desktop Application and Vue frontend updates",
-      "closed_at": "2025-07-29T10:46:37Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/Blog/pull/243",
-      "contributor": "ThatDeparted2061",
-      "contributor_name": "ThatDeparted2061",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/166894150?v=4"
-    },
-    {
-      "slug": "pr-merged-3240444880",
-      "type": "PR Merged",
-      "title": "Add GSoC 2025 Project 6 Phase 1 blog post",
-      "closed_at": "2025-07-29T10:47:18Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/Blog/pull/242",
-      "contributor": "Nihal4777",
-      "contributor_name": "Nihal4777",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/65150640?v=4"
-    },
-    {
-      "slug": "pr-merged-3240409353",
-      "type": "PR Merged",
-      "title": "Added GSoC blog post and assets for Project: Enhanced Verilog Support & Stability",
-      "closed_at": "2025-07-29T10:46:22Z",
-      "points": 5,
-      "link": "https://github.com/CircuitVerse/Blog/pull/241",
-      "contributor": "092vk",
-      "contributor_name": "092vk",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/123629919?v=4"
+      "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5260",
+      "contributor": "Stitipragyanbarik",
+      "contributor_name": "Stitipragyanbarik",
+      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/123853301?v=4"
     },
     {
       "slug": "issue-opened-3748673839",
