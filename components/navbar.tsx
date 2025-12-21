@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Home, Trophy, Users } from "lucide-react";
+import { useScrollDirection } from "@/lib/hooks/useScrollDirection";
 
 interface NavbarProps {
   config: Config;
@@ -19,6 +20,7 @@ const navItems = [
 
 const Navbar = ({ config }: NavbarProps) => {
   const pathname = usePathname();
+  const scrollDirection = useScrollDirection()
 
   const isActive = (href: string) => {
     if (href === "/") return pathname === "/";
@@ -73,7 +75,7 @@ const Navbar = ({ config }: NavbarProps) => {
       </header>
 
       {/* Mobile Navbar */}
-      <nav className="md:hidden fixed bottom-4 left-1/2 -translate-x-1/2 z-50">
+      <nav className={`md:hidden fixed bottom-4 left-1/2 transition-transform duration-400 ease-in-out -translate-x-1/2 z-50 ${scrollDirection === "down" ? "translate-y-50" : "translate-y-0"}`}>
         <div className="flex items-center gap-1 rounded-full border border-zinc-200 dark:border-white/10 bg-background/90 backdrop-blur-xl shadow-xl px-2 py-2">
           {navItems.map((item) => {
             const Icon = item.icon;
