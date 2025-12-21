@@ -223,7 +223,9 @@ export default function LeaderboardView({
                     placeholder="Search contributors..."
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
-                    className="pl-9 h-9 w-64 bg-white dark:bg-[#07170f] border border-[#50B78B]/60 dark:border-[#50B78B]/40 shadow-sm dark:shadow-none text-foreground dark:text-foreground focus:border-[#50B78B] focus-visible:ring-2 focus-visible:ring-[#50B78B]/60 focus-visible:ring-offset-1 transition-colors"
+                    className="
+                      pl-9 h-9 w-64 bg-white dark:bg-[#07170f] border border-[#50B78B]/60 dark:border-[#50B78B]/40 text-foreground dark:text-foreground shadow-sm dark:shadow-none outline-none focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#50B78B] focus-visible:ring-offset-0 transition-colors
+                    "
                   />
                 </div>
 
@@ -235,7 +237,7 @@ export default function LeaderboardView({
                         variant="ghost"
                         size="sm"
                         onClick={clearFilters}
-                        className="h-9 hover:bg-[#50B78B]/20 dark:hover:bg-[#50B78B]/20 focus:border-[#50B78B] focus-visible:ring-2 focus-visible:ring-[#50B78B]/40"
+                        className="h-9 hover:bg-[#50B78B]/20 dark:hover:bg-[#50B78B]/20 focus:border-[#50B78B] focus-visible:ring-2 focus-visible:ring-[#50B78B]/40 outline-none"
                       >
                         <X className="h-4 w-4 mr-1" />
                         Clear
@@ -246,7 +248,7 @@ export default function LeaderboardView({
                         <Button
                           variant="outline"
                           size="sm"
-                          className="h-9 border border-[#50B78B]/30 dark:border-[#50B78B]/30 hover:bg-[#50B78B]/20 dark:hover:bg-[#50B78B]/20 focus:border-[#50B78B] focus-visible:ring-2 focus-visible:ring-[#50B78B]/40"
+                          className="h-9 border border-[#50B78B]/30 dark:border-[#50B78B]/30 hover:bg-[#50B78B]/20 dark:hover:bg-[#50B78B]/20 focus:border-[#50B78B] focus-visible:ring-2 focus-visible:ring-[#50B78B]/40 outline-none"
                         >
                           <Filter className="h-4 w-4 mr-2" />
                           Role
@@ -298,7 +300,7 @@ export default function LeaderboardView({
                   key={p}
                   href={`/leaderboard/${p}`}
                   className={cn(
-                    "px-4 py-2 font-medium transition-colors border-b-2 relative",
+                    "px-4 py-2 font-medium transition-colors border-b-2 relative outline-none focus-visible:ring-2 focus-visible:ring-[#50B78B]/60 rounded-sm",
                     period === p
                       ? "border-[#50B78B] text-[#50B78B] bg-gradient-to-t from-[#50B78B]/12 to-transparent dark:from-[#50B78B]/12"
                       : "border-transparent text-muted-foreground hover:text-[#50B78B]"
