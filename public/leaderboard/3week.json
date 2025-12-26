@@ -1,6 +1,6 @@
 {
   "period": "3week",
-  "updatedAt": 1766730240225,
+  "updatedAt": 1766752111356,
   "startDate": "2025-12-05",
   "endDate": "2025-12-26",
   "hiddenRoles": [],
@@ -11,7 +11,7 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/177391853?v=4",
       "role": "Contributor",
-      "total_points": 56,
+      "total_points": 58,
       "activity_breakdown": {
         "PR opened": {
           "count": 8,
@@ -22,8 +22,8 @@
           "points": 35
         },
         "Issue opened": {
-          "count": 5,
-          "points": 5
+          "count": 7,
+          "points": 7
         }
       },
       "daily_activity": [
@@ -44,8 +44,8 @@
         },
         {
           "date": "2025-12-26",
-          "count": 5,
-          "points": 14
+          "count": 7,
+          "points": 16
         },
         {
           "date": "2025-12-25",
@@ -239,6 +239,26 @@
           "title": "Feature - Replace system alert for Circuit Name entry with a themed modal",
           "occured_at": "2025-12-06T07:26:52Z",
           "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6436",
+          "points": 1,
+          "contributor": "Atharva7126",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/177391853?v=4"
+        },
+        {
+          "type": "Issue opened",
+          "title": "Feat - Add pagination to leaderboard (15–20 entries per page)",
+          "occured_at": "2025-12-26T10:56:51Z",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/20",
+          "points": 1,
+          "contributor": "Atharva7126",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/177391853?v=4"
+        },
+        {
+          "type": "Issue opened",
+          "title": "Bug - Leaderboard page is not responsive on mobile viewports",
+          "occured_at": "2025-12-26T10:48:32Z",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/19",
           "points": 1,
           "contributor": "Atharva7126",
           "contributor_name": null,
@@ -541,11 +561,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 26,
+      "total_points": 24,
       "activity_breakdown": {
         "PR opened": {
-          "count": 5,
-          "points": 10
+          "count": 4,
+          "points": 8
         },
         "PR merged": {
           "count": 2,
@@ -571,11 +591,6 @@
           "date": "2025-12-06",
           "count": 2,
           "points": 3
-        },
-        {
-          "date": "2025-12-05",
-          "count": 1,
-          "points": 2
         },
         {
           "date": "2025-12-25",
@@ -624,16 +639,6 @@
           "title": "Fix missing project_url error by adding shallow routes for projects",
           "occured_at": "2025-12-06T18:13:43Z",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6439",
-          "points": 2,
-          "contributor": "naman79820",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4"
-        },
-        {
-          "type": "PR opened",
-          "title": "Fix pagination ArgumentError when page parameter is empty #6426",
-          "occured_at": "2025-12-05T11:54:17Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6429",
           "points": 2,
           "contributor": "naman79820",
           "contributor_name": null,
@@ -1174,82 +1179,6 @@
       ]
     },
     {
-      "username": "salmoneatenbybear",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/177742943?v=4",
-      "role": "Contributor",
-      "total_points": 14,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 2,
-          "points": 4
-        },
-        "PR merged": {
-          "count": 2,
-          "points": 10
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-12-07",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-12-05",
-          "count": 2,
-          "points": 7
-        },
-        {
-          "date": "2025-12-08",
-          "count": 1,
-          "points": 5
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "title": "chore - About page members restructuring",
-          "occured_at": "2025-12-07T13:56:17Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6444",
-          "points": 2,
-          "contributor": "salmoneatenbybear",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/177742943?v=4"
-        },
-        {
-          "type": "PR opened",
-          "title": "chore - update about page with new core team members and remove old issue triaging team.",
-          "occured_at": "2025-12-05T11:26:38Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6428",
-          "points": 2,
-          "contributor": "salmoneatenbybear",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/177742943?v=4"
-        },
-        {
-          "type": "PR merged",
-          "title": "chore - About page members restructuring",
-          "occured_at": "2025-12-08T03:43:45Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6444",
-          "points": 5,
-          "contributor": "salmoneatenbybear",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/177742943?v=4"
-        },
-        {
-          "type": "PR merged",
-          "title": "chore - update about page with new core team members and remove old issue triaging team.",
-          "occured_at": "2025-12-05T13:12:16Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6428",
-          "points": 5,
-          "contributor": "salmoneatenbybear",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/177742943?v=4"
-        }
-      ]
-    },
-    {
       "username": "Radhikaa-chauhan",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/148184013?v=4",
@@ -1361,6 +1290,72 @@
           "contributor": "Radhikaa-chauhan",
           "contributor_name": null,
           "contributor_avatar_url": "https://avatars.githubusercontent.com/u/148184013?v=4"
+        }
+      ]
+    },
+    {
+      "username": "salmoneatenbybear",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/177742943?v=4",
+      "role": "Contributor",
+      "total_points": 12,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 2
+        },
+        "PR merged": {
+          "count": 2,
+          "points": 10
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-12-07",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-12-08",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2025-12-05",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR opened",
+          "title": "chore - About page members restructuring",
+          "occured_at": "2025-12-07T13:56:17Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6444",
+          "points": 2,
+          "contributor": "salmoneatenbybear",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/177742943?v=4"
+        },
+        {
+          "type": "PR merged",
+          "title": "chore - About page members restructuring",
+          "occured_at": "2025-12-08T03:43:45Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6444",
+          "points": 5,
+          "contributor": "salmoneatenbybear",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/177742943?v=4"
+        },
+        {
+          "type": "PR merged",
+          "title": "chore - update about page with new core team members and remove old issue triaging team.",
+          "occured_at": "2025-12-05T13:12:16Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6428",
+          "points": 5,
+          "contributor": "salmoneatenbybear",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/177742943?v=4"
         }
       ]
     },
@@ -1757,54 +1752,108 @@
       ]
     },
     {
-      "username": "h30s",
+      "username": "ys748477-dotcom",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/183348352?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4",
       "role": "Contributor",
-      "total_points": 6,
+      "total_points": 7,
       "activity_breakdown": {
         "PR opened": {
-          "count": 3,
-          "points": 6
+          "count": 1,
+          "points": 2
+        },
+        "Issue opened": {
+          "count": 5,
+          "points": 5
         }
       },
       "daily_activity": [
         {
-          "date": "2025-12-05",
-          "count": 3,
-          "points": 6
+          "date": "2025-12-17",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-12-19",
+          "count": 1,
+          "points": 1
+        },
+        {
+          "date": "2025-12-07",
+          "count": 2,
+          "points": 2
+        },
+        {
+          "date": "2025-12-26",
+          "count": 1,
+          "points": 1
+        },
+        {
+          "date": "2025-12-22",
+          "count": 1,
+          "points": 1
         }
       ],
       "activities": [
         {
           "type": "PR opened",
-          "title": "Fix S3 AccessDenied errors crashing the application",
-          "occured_at": "2025-12-05T14:47:03Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6432",
+          "title": "Add documentation for simulator circuit data flow",
+          "occured_at": "2025-12-17T09:01:35Z",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/695",
           "points": 2,
-          "contributor": "h30s",
+          "contributor": "ys748477-dotcom",
           "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/183348352?v=4"
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4"
         },
         {
-          "type": "PR opened",
-          "title": "Fix undefined method 'project_url' error in JSON jbuilder",
-          "occured_at": "2025-12-05T14:03:53Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6431",
-          "points": 2,
-          "contributor": "h30s",
+          "type": "Issue opened",
+          "title": "🐞 Bug - Wire routing parity issue - cv-frontend-vue does not support orthogonal (zig-zag) wires",
+          "occured_at": "2025-12-19T10:02:40Z",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/696",
+          "points": 1,
+          "contributor": "ys748477-dotcom",
           "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/183348352?v=4"
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4"
         },
         {
-          "type": "PR opened",
-          "title": "fix - Handle JSON - - ParserError for truncated project data",
-          "occured_at": "2025-12-05T06:40:22Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6427",
-          "points": 2,
-          "contributor": "h30s",
+          "type": "Issue opened",
+          "title": "TestBenchPanel.vue UI cleanup for spacing & consistency",
+          "occured_at": "2025-12-07T09:23:58Z",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/685",
+          "points": 1,
+          "contributor": "ys748477-dotcom",
           "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/183348352?v=4"
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4"
+        },
+        {
+          "type": "Issue opened",
+          "title": "UI Cleanup - Improve TestBench Panel (Spacing, Header, Inline Styles)",
+          "occured_at": "2025-12-07T08:48:20Z",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/448",
+          "points": 1,
+          "contributor": "ys748477-dotcom",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4"
+        },
+        {
+          "type": "Issue opened",
+          "title": "🐞 Bug - Canvas does not fully redraw after resize (DevTools toggle) in v0 simulator",
+          "occured_at": "2025-12-26T11:52:45Z",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/700",
+          "points": 1,
+          "contributor": "ys748477-dotcom",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4"
+        },
+        {
+          "type": "Issue opened",
+          "title": "Wire routing parity investigation - v0 simulator tightly couples wire geometry with transform/listener system",
+          "occured_at": "2025-12-22T12:41:11Z",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/697",
+          "points": 1,
+          "contributor": "ys748477-dotcom",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4"
         }
       ]
     },
@@ -1875,93 +1924,44 @@
       ]
     },
     {
-      "username": "ys748477-dotcom",
+      "username": "h30s",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/183348352?v=4",
       "role": "Contributor",
-      "total_points": 6,
+      "total_points": 4,
       "activity_breakdown": {
         "PR opened": {
-          "count": 1,
-          "points": 2
-        },
-        "Issue opened": {
-          "count": 4,
+          "count": 2,
           "points": 4
         }
       },
       "daily_activity": [
         {
-          "date": "2025-12-17",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-12-19",
-          "count": 1,
-          "points": 1
-        },
-        {
-          "date": "2025-12-07",
+          "date": "2025-12-05",
           "count": 2,
-          "points": 2
-        },
-        {
-          "date": "2025-12-22",
-          "count": 1,
-          "points": 1
+          "points": 4
         }
       ],
       "activities": [
         {
           "type": "PR opened",
-          "title": "Add documentation for simulator circuit data flow",
-          "occured_at": "2025-12-17T09:01:35Z",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/695",
+          "title": "Fix S3 AccessDenied errors crashing the application",
+          "occured_at": "2025-12-05T14:47:03Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6432",
           "points": 2,
-          "contributor": "ys748477-dotcom",
+          "contributor": "h30s",
           "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4"
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/183348352?v=4"
         },
         {
-          "type": "Issue opened",
-          "title": "🐞 Bug - Wire routing parity issue - cv-frontend-vue does not support orthogonal (zig-zag) wires",
-          "occured_at": "2025-12-19T10:02:40Z",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/696",
-          "points": 1,
-          "contributor": "ys748477-dotcom",
+          "type": "PR opened",
+          "title": "Fix undefined method 'project_url' error in JSON jbuilder",
+          "occured_at": "2025-12-05T14:03:53Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6431",
+          "points": 2,
+          "contributor": "h30s",
           "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4"
-        },
-        {
-          "type": "Issue opened",
-          "title": "TestBenchPanel.vue UI cleanup for spacing & consistency",
-          "occured_at": "2025-12-07T09:23:58Z",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/685",
-          "points": 1,
-          "contributor": "ys748477-dotcom",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4"
-        },
-        {
-          "type": "Issue opened",
-          "title": "UI Cleanup - Improve TestBench Panel (Spacing, Header, Inline Styles)",
-          "occured_at": "2025-12-07T08:48:20Z",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/448",
-          "points": 1,
-          "contributor": "ys748477-dotcom",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4"
-        },
-        {
-          "type": "Issue opened",
-          "title": "Wire routing parity investigation - v0 simulator tightly couples wire geometry with transform/listener system",
-          "occured_at": "2025-12-22T12:41:11Z",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/697",
-          "points": 1,
-          "contributor": "ys748477-dotcom",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4"
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/183348352?v=4"
         }
       ]
     },
@@ -3159,6 +3159,38 @@
           "contributor": "ritiksingh3202",
           "contributor_name": null,
           "contributor_avatar_url": "https://avatars.githubusercontent.com/u/213921109?v=4"
+        }
+      ]
+    },
+    {
+      "username": "star-warrior",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/69752445?v=4",
+      "role": "Contributor",
+      "total_points": 1,
+      "activity_breakdown": {
+        "Issue opened": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-12-26",
+          "count": 1,
+          "points": 1
+        }
+      ],
+      "activities": [
+        {
+          "type": "Issue opened",
+          "title": "🐞 Bug - Browse by tags can't add or remove Tags in explore page + UI issues",
+          "occured_at": "2025-12-26T07:27:52Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6508",
+          "points": 1,
+          "contributor": "star-warrior",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/69752445?v=4"
         }
       ]
     },
