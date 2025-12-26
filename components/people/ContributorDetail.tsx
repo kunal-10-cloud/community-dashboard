@@ -73,7 +73,10 @@ export function ContributorDetail({ contributor, onBack }: ContributorDetailProp
   today.setHours(0, 0, 0, 0);
   
   for (let i = 0; i < sortedDates.length; i++) {
-    const activityDate = new Date(sortedDates[i].date);
+    const dateEntry = sortedDates[i];
+    if (!dateEntry) break;
+    
+    const activityDate = new Date(dateEntry.date);
     activityDate.setHours(0, 0, 0, 0);
     const daysDiff = Math.floor((today.getTime() - activityDate.getTime()) / (1000 * 60 * 60 * 24));
     
