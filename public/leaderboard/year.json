@@ -1,6 +1,6 @@
 {
   "period": "year",
-  "updatedAt": 1766924825090,
+  "updatedAt": 1766946101286,
   "startDate": "2024-12-28",
   "endDate": "2025-12-28",
   "hiddenRoles": [],
@@ -6365,19 +6365,19 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 77,
+      "total_points": 82,
       "activity_breakdown": {
         "PR opened": {
-          "count": 21,
-          "points": 42
+          "count": 23,
+          "points": 46
         },
         "PR merged": {
           "count": 4,
           "points": 20
         },
         "Issue opened": {
-          "count": 15,
-          "points": 15
+          "count": 16,
+          "points": 16
         }
       },
       "daily_activity": [
@@ -6473,8 +6473,8 @@
         },
         {
           "date": "2025-12-28",
-          "count": 1,
-          "points": 2
+          "count": 4,
+          "points": 7
         },
         {
           "date": "2025-12-25",
@@ -6648,6 +6648,20 @@
         },
         {
           "type": "PR opened",
+          "occured_at": "2025-12-28T17:33:08Z",
+          "title": "chore(ci) - pin Node.js version to 18 for Netlify builds",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/478",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-12-28T16:35:59Z",
+          "title": "Testing coderabbitaibot",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/41",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
           "occured_at": "2025-12-28T11:21:21Z",
           "title": "Reuse Chapter 2 responsive iframe styles in Chapter 3 introduction",
           "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/475",
@@ -6756,6 +6770,13 @@
           "occured_at": "2025-11-29T17:52:49Z",
           "title": "🐞 Bug - Illustration on Blog Page Overflows / Not Responsive at ~1200px Width",
           "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6369",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-12-28T18:01:10Z",
+          "title": "Netlify CI fails",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/479",
           "points": 1
         },
         {
@@ -10789,6 +10810,119 @@
       ]
     },
     {
+      "username": "himanshujays29",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/158487820?v=4",
+      "role": "Contributor",
+      "total_points": 19,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 6,
+          "points": 12
+        },
+        "PR merged": {
+          "count": 1,
+          "points": 5
+        },
+        "Issue opened": {
+          "count": 2,
+          "points": 2
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-09-24",
+          "count": 4,
+          "points": 8
+        },
+        {
+          "date": "2025-12-21",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-12-16",
+          "count": 2,
+          "points": 3
+        },
+        {
+          "date": "2025-12-23",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2025-12-28",
+          "count": 1,
+          "points": 1
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2025-09-24T05:18:38Z",
+          "title": "Fix - ActiveJob - - SerializationError due to reserved key \"_aj_globalid\" in Users - - NoticedNotificationsController",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6084",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-09-24T02:58:17Z",
+          "title": "Fix - ActiveJob - - SerializationError due to reserved key \"_aj_globalid\" in Users - - NoticedNotificationsController",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6082",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-09-24T05:18:38Z",
+          "title": "Fix - ActiveJob - - SerializationError due to reserved key \"_aj_globalid\" in Users - - NoticedNotificationsController",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6084",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-09-24T02:58:17Z",
+          "title": "Fix - ActiveJob - - SerializationError due to reserved key \"_aj_globalid\" in Users - - NoticedNotificationsController",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6082",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-12-21T14:32:55Z",
+          "title": "Fix typos errors across code and docs",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6497",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-12-16T10:34:08Z",
+          "title": "Fix typos, spelling errors, and grammar across simulator, docs, and locales",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6475",
+          "points": 2
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-12-23T08:29:38Z",
+          "title": "Fix typos errors across code and docs",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6497",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-12-16T09:49:20Z",
+          "title": "🐞 Bug - Fix typos and localization errors in simulator, docs, and config files",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6474",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-12-28T13:12:22Z",
+          "title": "UI/UX Issue - Search & Filter placement on Leaderboard (640px–760px)",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/40",
+          "points": 1
+        }
+      ]
+    },
+    {
       "username": "ghanshyam2005singh",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/56252619?v=4",
@@ -11063,107 +11197,6 @@
           "title": "New - added flutter web target",
           "link": "https://github.com/CircuitVerse/mobile-app/pull/308",
           "points": 5
-        }
-      ]
-    },
-    {
-      "username": "himanshujays29",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/158487820?v=4",
-      "role": "Contributor",
-      "total_points": 18,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 6,
-          "points": 12
-        },
-        "PR merged": {
-          "count": 1,
-          "points": 5
-        },
-        "Issue opened": {
-          "count": 1,
-          "points": 1
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-09-24",
-          "count": 4,
-          "points": 8
-        },
-        {
-          "date": "2025-12-21",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-12-16",
-          "count": 2,
-          "points": 3
-        },
-        {
-          "date": "2025-12-23",
-          "count": 1,
-          "points": 5
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2025-09-24T05:18:38Z",
-          "title": "Fix - ActiveJob - - SerializationError due to reserved key \"_aj_globalid\" in Users - - NoticedNotificationsController",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6084",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-09-24T02:58:17Z",
-          "title": "Fix - ActiveJob - - SerializationError due to reserved key \"_aj_globalid\" in Users - - NoticedNotificationsController",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6082",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-09-24T05:18:38Z",
-          "title": "Fix - ActiveJob - - SerializationError due to reserved key \"_aj_globalid\" in Users - - NoticedNotificationsController",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6084",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-09-24T02:58:17Z",
-          "title": "Fix - ActiveJob - - SerializationError due to reserved key \"_aj_globalid\" in Users - - NoticedNotificationsController",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6082",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-12-21T14:32:55Z",
-          "title": "Fix typos errors across code and docs",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6497",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-12-16T10:34:08Z",
-          "title": "Fix typos, spelling errors, and grammar across simulator, docs, and locales",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6475",
-          "points": 2
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-12-23T08:29:38Z",
-          "title": "Fix typos errors across code and docs",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6497",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-12-16T09:49:20Z",
-          "title": "🐞 Bug - Fix typos and localization errors in simulator, docs, and config files",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6474",
-          "points": 1
         }
       ]
     },
@@ -14724,6 +14757,58 @@
       ]
     },
     {
+      "username": "ViRUS-0-0",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/67628558?v=4",
+      "role": "Contributor",
+      "total_points": 5,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 2,
+          "points": 4
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-12-28",
+          "count": 2,
+          "points": 3
+        },
+        {
+          "date": "2025-12-27",
+          "count": 1,
+          "points": 2
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2025-12-28T10:26:35Z",
+          "title": "fixed ArgumentError - invalid value for Integer()",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6516",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-12-27T12:47:01Z",
+          "title": "Fix createPopper error by including Popper.js dependency",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6510",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-12-28T18:18:10Z",
+          "title": "🐞 Bug - Blocked Alert when refreshing an unsaved simulator circuit",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6519",
+          "points": 1
+        }
+      ]
+    },
+    {
       "username": "ezeslucky",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/161119463?v=4",
@@ -15621,47 +15706,6 @@
       ]
     },
     {
-      "username": "ViRUS-0-0",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/67628558?v=4",
-      "role": "Contributor",
-      "total_points": 4,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 2,
-          "points": 4
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-12-28",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-12-27",
-          "count": 1,
-          "points": 2
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2025-12-28T10:26:35Z",
-          "title": "fixed ArgumentError - invalid value for Integer()",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6516",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-12-27T12:47:01Z",
-          "title": "Fix createPopper error by including Popper.js dependency",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6510",
-          "points": 2
-        }
-      ]
-    },
-    {
       "username": "themradul07",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/171602531?v=4",
@@ -16138,6 +16182,46 @@
           "occured_at": "2025-12-03T12:39:02Z",
           "title": "🐞 Bug - Navbar active state not working for some menu items.",
           "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6419",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "username": "haaasini01",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4",
+      "role": "Contributor",
+      "total_points": 3,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 2
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-12-28",
+          "count": 2,
+          "points": 3
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2025-12-28T14:39:11Z",
+          "title": "Enhancement - Add Boolean expressions to all logic gates in Chapter 4",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/477",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-12-28T12:28:32Z",
+          "title": "Enhancement - Boolean expressions for logic gates in Chapter 4",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/476",
           "points": 1
         }
       ]

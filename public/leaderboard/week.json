@@ -1,6 +1,6 @@
 {
   "period": "week",
-  "updatedAt": 1766924825096,
+  "updatedAt": 1766946101293,
   "startDate": "2025-12-21",
   "endDate": "2025-12-28",
   "hiddenRoles": [],
@@ -531,26 +531,26 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 14,
+      "total_points": 19,
       "activity_breakdown": {
         "PR opened": {
-          "count": 2,
-          "points": 4
+          "count": 4,
+          "points": 8
         },
         "PR merged": {
           "count": 1,
           "points": 5
         },
         "Issue opened": {
-          "count": 5,
-          "points": 5
+          "count": 6,
+          "points": 6
         }
       },
       "daily_activity": [
         {
           "date": "2025-12-28",
-          "count": 1,
-          "points": 2
+          "count": 4,
+          "points": 7
         },
         {
           "date": "2025-12-25",
@@ -569,6 +569,26 @@
         }
       ],
       "activities": [
+        {
+          "type": "PR opened",
+          "title": "chore(ci) - pin Node.js version to 18 for Netlify builds",
+          "occured_at": "2025-12-28T17:33:08Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/478",
+          "points": 2,
+          "contributor": "naman79820",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4"
+        },
+        {
+          "type": "PR opened",
+          "title": "Testing coderabbitaibot",
+          "occured_at": "2025-12-28T16:35:59Z",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/41",
+          "points": 2,
+          "contributor": "naman79820",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4"
+        },
         {
           "type": "PR opened",
           "title": "Reuse Chapter 2 responsive iframe styles in Chapter 3 introduction",
@@ -595,6 +615,16 @@
           "occured_at": "2025-12-25T19:21:27Z",
           "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/462",
           "points": 5,
+          "contributor": "naman79820",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4"
+        },
+        {
+          "type": "Issue opened",
+          "title": "Netlify CI fails",
+          "occured_at": "2025-12-28T18:01:10Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/479",
+          "points": 1,
           "contributor": "naman79820",
           "contributor_name": null,
           "contributor_avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4"
@@ -975,46 +1005,46 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/158487820?v=4",
       "role": "Contributor",
-      "total_points": 7,
+      "total_points": 6,
       "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 2
-        },
         "PR merged": {
           "count": 1,
           "points": 5
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 1
         }
       },
       "daily_activity": [
         {
-          "date": "2025-12-21",
-          "count": 1,
-          "points": 2
-        },
-        {
           "date": "2025-12-23",
           "count": 1,
           "points": 5
+        },
+        {
+          "date": "2025-12-28",
+          "count": 1,
+          "points": 1
         }
       ],
       "activities": [
-        {
-          "type": "PR opened",
-          "title": "Fix typos errors across code and docs",
-          "occured_at": "2025-12-21T14:32:55Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6497",
-          "points": 2,
-          "contributor": "himanshujays29",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/158487820?v=4"
-        },
         {
           "type": "PR merged",
           "title": "Fix typos errors across code and docs",
           "occured_at": "2025-12-23T08:29:38Z",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6497",
           "points": 5,
+          "contributor": "himanshujays29",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/158487820?v=4"
+        },
+        {
+          "type": "Issue opened",
+          "title": "UI/UX Issue - Search & Filter placement on Leaderboard (640px–760px)",
+          "occured_at": "2025-12-28T13:12:22Z",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/40",
+          "points": 1,
           "contributor": "himanshujays29",
           "contributor_name": null,
           "contributor_avatar_url": "https://avatars.githubusercontent.com/u/158487820?v=4"
@@ -1378,6 +1408,67 @@
       ]
     },
     {
+      "username": "ViRUS-0-0",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/67628558?v=4",
+      "role": "Contributor",
+      "total_points": 5,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 2,
+          "points": 4
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-12-28",
+          "count": 2,
+          "points": 3
+        },
+        {
+          "date": "2025-12-27",
+          "count": 1,
+          "points": 2
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR opened",
+          "title": "fixed ArgumentError - invalid value for Integer()",
+          "occured_at": "2025-12-28T10:26:35Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6516",
+          "points": 2,
+          "contributor": "ViRUS-0-0",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/67628558?v=4"
+        },
+        {
+          "type": "PR opened",
+          "title": "Fix createPopper error by including Popper.js dependency",
+          "occured_at": "2025-12-27T12:47:01Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6510",
+          "points": 2,
+          "contributor": "ViRUS-0-0",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/67628558?v=4"
+        },
+        {
+          "type": "Issue opened",
+          "title": "🐞 Bug - Blocked Alert when refreshing an unsaved simulator circuit",
+          "occured_at": "2025-12-28T18:18:10Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6519",
+          "points": 1,
+          "contributor": "ViRUS-0-0",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/67628558?v=4"
+        }
+      ]
+    },
+    {
       "username": "blazethunderstorm",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/149250431?v=4",
@@ -1462,53 +1553,6 @@
       ]
     },
     {
-      "username": "ViRUS-0-0",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/67628558?v=4",
-      "role": "Contributor",
-      "total_points": 4,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 2,
-          "points": 4
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-12-28",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-12-27",
-          "count": 1,
-          "points": 2
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "title": "fixed ArgumentError - invalid value for Integer()",
-          "occured_at": "2025-12-28T10:26:35Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6516",
-          "points": 2,
-          "contributor": "ViRUS-0-0",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/67628558?v=4"
-        },
-        {
-          "type": "PR opened",
-          "title": "Fix createPopper error by including Popper.js dependency",
-          "occured_at": "2025-12-27T12:47:01Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6510",
-          "points": 2,
-          "contributor": "ViRUS-0-0",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/67628558?v=4"
-        }
-      ]
-    },
-    {
       "username": "themradul07",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/171602531?v=4",
@@ -1552,6 +1596,52 @@
           "contributor": "themradul07",
           "contributor_name": null,
           "contributor_avatar_url": "https://avatars.githubusercontent.com/u/171602531?v=4"
+        }
+      ]
+    },
+    {
+      "username": "haaasini01",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4",
+      "role": "Contributor",
+      "total_points": 3,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 2
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-12-28",
+          "count": 2,
+          "points": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR opened",
+          "title": "Enhancement - Add Boolean expressions to all logic gates in Chapter 4",
+          "occured_at": "2025-12-28T14:39:11Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/477",
+          "points": 2,
+          "contributor": "haaasini01",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4"
+        },
+        {
+          "type": "Issue opened",
+          "title": "Enhancement - Boolean expressions for logic gates in Chapter 4",
+          "occured_at": "2025-12-28T12:28:32Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/476",
+          "points": 1,
+          "contributor": "haaasini01",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4"
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1766924825115,
+  "updatedAt": 1766946101310,
   "groups": [
     {
       "date": "2025-12-28",
@@ -7,10 +7,34 @@
         {
           "username": "naman79820",
           "name": null,
+          "title": "chore(ci) - pin Node.js version to 18 for Netlify builds",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/478",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
+          "points": 2
+        },
+        {
+          "username": "naman79820",
+          "name": null,
+          "title": "Testing coderabbitaibot",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/41",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
+          "points": 2
+        },
+        {
+          "username": "naman79820",
+          "name": null,
           "title": "Reuse Chapter 2 responsive iframe styles in Chapter 3 introduction",
           "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/475",
           "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
           "points": 2
+        },
+        {
+          "username": "naman79820",
+          "name": null,
+          "title": "Netlify CI fails",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/479",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
+          "points": 1
         },
         {
           "username": "Git-HimanshuRathi",
@@ -37,6 +61,14 @@
           "points": 1
         },
         {
+          "username": "himanshujays29",
+          "name": null,
+          "title": "UI/UX Issue - Search & Filter placement on Leaderboard (640px–760px)",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/40",
+          "avatar_url": "https://avatars.githubusercontent.com/u/158487820?v=4",
+          "points": 1
+        },
+        {
           "username": "ViRUS-0-0",
           "name": null,
           "title": "fixed ArgumentError - invalid value for Integer()",
@@ -45,12 +77,36 @@
           "points": 2
         },
         {
+          "username": "ViRUS-0-0",
+          "name": null,
+          "title": "🐞 Bug - Blocked Alert when refreshing an unsaved simulator circuit",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6519",
+          "avatar_url": "https://avatars.githubusercontent.com/u/67628558?v=4",
+          "points": 1
+        },
+        {
           "username": "themradul07",
           "name": null,
           "title": "Issue 34 - Added Dropdown Filters",
           "link": "https://github.com/CircuitVerse/community-dashboard/pull/39",
           "avatar_url": "https://avatars.githubusercontent.com/u/171602531?v=4",
           "points": 2
+        },
+        {
+          "username": "haaasini01",
+          "name": null,
+          "title": "Enhancement - Add Boolean expressions to all logic gates in Chapter 4",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/477",
+          "avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4",
+          "points": 2
+        },
+        {
+          "username": "haaasini01",
+          "name": null,
+          "title": "Enhancement - Boolean expressions for logic gates in Chapter 4",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/476",
+          "avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4",
+          "points": 1
         },
         {
           "username": "RiyaS905",
@@ -154,20 +210,20 @@
           "points": 5
         },
         {
-          "username": "yats0x7",
-          "name": null,
-          "title": "Implement pagination or virtualization for \"Yearly\" leaderboard",
-          "link": "https://github.com/CircuitVerse/community-dashboard/issues/36",
-          "avatar_url": "https://avatars.githubusercontent.com/u/217891881?v=4",
-          "points": 1
-        },
-        {
           "username": "ViRUS-0-0",
           "name": null,
           "title": "Fix createPopper error by including Popper.js dependency",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6510",
           "avatar_url": "https://avatars.githubusercontent.com/u/67628558?v=4",
           "points": 2
+        },
+        {
+          "username": "yats0x7",
+          "name": null,
+          "title": "Implement pagination or virtualization for \"Yearly\" leaderboard",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/36",
+          "avatar_url": "https://avatars.githubusercontent.com/u/217891881?v=4",
+          "points": 1
         },
         {
           "username": "themradul07",
