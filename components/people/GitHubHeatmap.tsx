@@ -170,7 +170,7 @@ export function GitHubHeatmap({ dailyActivity, className = "" }: HeatmapProps) {
       <CardContent>
         <div className="space-y-3 overflow-x-auto">
           {/* Month labels */}
-          <div className="relative h-4 min-w-[780px] sm:min-w-0 ml-8">
+          <div className="relative h-4 min-w-195 sm:min-w-0 ml-8">
             {monthPositions.map((pos, i) => (
               <div
                 key={i}
@@ -183,7 +183,7 @@ export function GitHubHeatmap({ dailyActivity, className = "" }: HeatmapProps) {
           </div>
           
           {/* Day labels and heatmap */}
-          <div className="flex gap-1 min-w-[780px] sm:min-w-0">
+          <div className="flex gap-1 min-w-195 sm:min-w-0">
             {/* Day labels */}
             <div className="flex flex-col gap-1 text-xs text-muted-foreground w-8 shrink-0 justify-around">
               {dayLabels.map((label, i) => (
