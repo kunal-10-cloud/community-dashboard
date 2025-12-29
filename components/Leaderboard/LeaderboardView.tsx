@@ -203,7 +203,7 @@ export default function LeaderboardView({
         <div className="flex-1 min-w-0">
           {/* Header */}
           <div className="mb-8">
-            <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between mb-4">
+            <div className="flex flex-col gap-4 md:flex-row md:items-start md:justify-between mb-4">
               <div className="min-w-0">
                 <h1 className="text-4xl text-[#50B78B] font-bold mb-2">
                   {periodLabels[period]} Leaderboard
@@ -218,16 +218,17 @@ export default function LeaderboardView({
               <div className="flex flex-col gap-2 w-full sm:w-auto sm:flex-row sm:items-center sm:justify-end">
 
                 {/* Search Bar */}
-                <div className="relative w-full sm:w-auto sm:min-w-[16rem]">
+                <div className="relative w-full sm:flex-1 sm:min-w-0 md:w-[16rem]">
                   <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
                   <Input
                     type="text"
                     placeholder="Search contributors..."
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
-                    className="
-                      pl-9 h-9 w-full sm:w-64 bg-white dark:bg-[#07170f] border border-[#50B78B]/60 dark:border-[#50B78B]/40 text-foreground dark:text-foreground shadow-sm dark:shadow-none outline-none focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#50B78B] focus-visible:ring-offset-0 transition-colors
-                    "
+                    className={cn(
+                      "pl-9 h-9 w-full bg-white dark:bg-[#07170f] border border-[#50B78B]/60 dark:border-[#50B78B]/40 text-foreground dark:text-foreground shadow-sm dark:shadow-none outline-none focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#50B78B] focus-visible:ring-offset-0 transition-colors",
+                     "sm:w-full"
+                    )}
                   />
                 </div>
 
