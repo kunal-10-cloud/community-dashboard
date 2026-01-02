@@ -177,19 +177,34 @@ export function GitHubHeatmap({ dailyActivity, className = "" }: HeatmapProps) {
     }
   });
 
-  // Get month labels for the timeline - hardcoded fixed positions for consistent alignment
   const getMonthPositions = (): Array<{ month: string; position: number }> => {
-    const cellWidth = 15; // width per week column (12px cell + 3px gap)
+  const cellWidth = 16; // 12px (w-3) + 4px (gap-1)
+  const positions: Array<{ month: string; position: number }> = [];
 
-    // Hardcoded positions: 53 weeks total, each month gets ~4.4 weeks
-    // Positions: Jan=0, Feb=4, Mar=8, Apr=13, May=17, Jun=21, Jul=26, Aug=30, Sep=35, Oct=39, Nov=43, Dec=48
-    const monthWeekPositions = [0, 4, 8, 13, 17, 21, 26, 30, 35, 39, 43, 48];
+  let lastMonth = -1;
+  let lastPosition = -Infinity;
 
-    return monthLabels.map((month, index) => ({
-      month,
-      position: (monthWeekPositions[index] ?? 0) * cellWidth,
-    }));
-  };
+  weeks.forEach((week, weekIndex) => {
+    const firstDay = week.find((day) => day.date);
+    if (!firstDay) return;
+
+    const date = new Date(firstDay.date + "T00:00:00");
+    const month = date.getMonth();
+    const position = weekIndex * cellWidth;
+
+    // Only add when month changes and labels won't overlap
+    if (month !== lastMonth && position - lastPosition >= 32) {
+      positions.push({
+        month: monthLabels[month] ?? "",
+        position,
+      });
+      lastMonth = month;
+      lastPosition = position;
+    }
+  });
+
+  return positions;
+};
 
   const monthPositions = getMonthPositions();
 
