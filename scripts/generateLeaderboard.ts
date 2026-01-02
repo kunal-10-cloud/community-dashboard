@@ -150,6 +150,29 @@ export function generateLeaderboard(
 
     // Guard against invalid / malformed dates
     if (isNaN(parsedDate.getTime())) continue;
+  const yearData = {
+    period: "year",
+    updatedAt: Date.now(),
+    startDate: iso(since),
+    endDate: iso(now),
+    hiddenRoles: [],
+    topByActivity: {},
+    entries,
+  };
+
+  fs.writeFileSync(
+    path.join(outDir, "year.json"),
+    JSON.stringify(yearData, null, 2)
+  );
+
+  console.log(`✅ Generated year.json (${entries.length} contributors)`);
+
+  derivePeriod(yearData, 7, "week");
+  derivePeriod(yearData, 30, "month");
+  derivePeriod(yearData, 60, "2month");
+
+  generateRecentActivities(yearData, 14);
+}
 
     const date = parsedDate.toISOString().slice(0, 10);
 

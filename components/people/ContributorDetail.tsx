@@ -181,9 +181,9 @@ export function ContributorDetail({ contributor, onBack }: ContributorDetailProp
   today.setHours(0, 0, 0, 0);
 
   const uniqueDates = Array.from(new Set(sortedDates.map(d => d.date)));
-
-  let expectedDaysDiff = 0;
-
+  
+  let expectedDaysDiff = 0; // Start expecting today (0 days ago)
+  
   for (const dateStr of uniqueDates) {
     const activityDate = new Date(dateStr);
     activityDate.setHours(0, 0, 0, 0);
