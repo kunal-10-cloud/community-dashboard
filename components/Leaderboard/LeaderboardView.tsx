@@ -309,24 +309,24 @@ export default function LeaderboardView({
   };
 
   const clearFilters = () => {
-  const isMobile = typeof window !== "undefined" && window.innerWidth < 640;
-  const params = new URLSearchParams(searchParams.toString());
-  if(isMobile){
-    setSearchQuery("");
-    return;
-  }
-  params.delete("roles");
-  params.delete("sort");
-  params.delete("order");
-  // Reset to page 1 when clearing filters
-  params.delete("page");
-  setCurrentPage(1);
-  // Note: We preserve the limit param when clearing filters
+    const isMobile = typeof window !== "undefined" && window.innerWidth < 640;
+    const params = new URLSearchParams(searchParams.toString());
+    if(isMobile){
+      setSearchQuery("");
+      return;
+    }
+    params.delete("roles");
+    params.delete("sort");
+    params.delete("order");
+    // Reset to page 1 when clearing filters
+    params.delete("page");
+    setCurrentPage(1);
+    // Note: We preserve the limit param when clearing filters
 
-  window.history.replaceState(null, "", `${pathname}?${params.toString()}`);
-  setSearchQuery("");
-  setSortBy("points");
-};
+    window.history.replaceState(null, "", `${pathname}?${params.toString()}`);
+    setSearchQuery("");
+    setSortBy("points");
+  };
 
   const updatePageSize = (newPageSize: number | "all") => {
     const params = new URLSearchParams(searchParams.toString());
@@ -375,7 +375,6 @@ export default function LeaderboardView({
       updatePage(page);
     }
   };
- 
 
   const updateRolesParam = (roles: Set<string>) => {
     const params = new URLSearchParams(searchParams.toString());
@@ -518,80 +517,79 @@ export default function LeaderboardView({
                         )}
                       </Button>
                     </PopoverTrigger>
-                        <PopoverContent
-                          align="end"
-                          className="w-56 bg-white dark:bg-[#07170f]"
-                        >
-                          <div className="space-y-2">
-                            <h4 className="font-medium text-sm">
-                              Sort By
-                            </h4>
-                            <div className="space-y-0.5">
-                              {[
-                                { key: 'points' as SortBy, label: 'Total Points' },
-                                { key: 'pr_opened' as SortBy, label: 'PRs Opened' },
-                                { key: 'pr_merged' as SortBy, label: 'PRs Merged' },
-                                { key: 'issues' as SortBy, label: 'Issue Opened' },
-                              ].map((opt) => {
-                                const active = sortBy === opt.key;
-                                return (
-                                  <button
-                                    key={opt.key}
-                                    onClick={(e) => {
-                                      setPopoverOpen(false);
-                                      setSortBy(opt.key as SortBy);
-                                      const params = new URLSearchParams(searchParams.toString());
-                                      if(opt.key === 'points'){
-                                        params.delete('sort');
-                                        params.delete('order');
-                                      }else{
-                                        params.set('sort', opt.key);
-                                        params.set('order', 'desc');
-                                      }
-                                      // Reset to page 1 when sort changes
-                                      params.delete('page');
-                                      setCurrentPage(1);
-                                      if(typeof window !== 'undefined') 
-                                        window.history.replaceState(null, '', `${pathname}?${params.toString()}`);
-                                    }}
-                                    className={cn('w-full text-left px-4 py-2 cursor-pointer rounded-md text-sm', active ? 'bg-[#50B78B] text-white' : 'hover:bg-muted')}
-                                    aria-pressed={active}
-                                  >
-                                    <div className="flex items-center justify-between">
-                                      <div>{opt.label}</div>
-                                    </div>
-                                  </button>
-                                )
-                              })}
-                            </div>
-                            <h4 className="font-medium text-sm">
-                              Role
-                            </h4>
-                            <div className="space-y-2 max-h-64 overflow-y-auto px-4">
-                              {availableRoles.map((role) => (
-                                <div
-                                  key={role}
-                                  className="flex items-center space-x-2"
-                                >
-                                  <Checkbox
-                                    id={role}
-                                    checked={selectedRoles.has(role)}
-                                    onCheckedChange={() => toggleRole(role)}
-                                  />
-                                  <label
-                                    htmlFor={role}
-                                    className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer"
-                                  >
-                                    {role}
-                                  </label>
+                    <PopoverContent
+                      align="end"
+                      className="w-56 bg-white dark:bg-[#07170f]"
+                    >
+                      <div className="space-y-2">
+                        <h4 className="font-medium text-sm">
+                          Sort By
+                        </h4>
+                        <div className="space-y-0.5">
+                          {[
+                            { key: 'points' as SortBy, label: 'Total Points' },
+                            { key: 'pr_opened' as SortBy, label: 'PRs Opened' },
+                            { key: 'pr_merged' as SortBy, label: 'PRs Merged' },
+                            { key: 'issues' as SortBy, label: 'Issue Opened' },
+                          ].map((opt) => {
+                            const active = sortBy === opt.key;
+                            return (
+                              <button
+                                key={opt.key}
+                                onClick={(e) => {
+                                  setPopoverOpen(false);
+                                  setSortBy(opt.key as SortBy);
+                                  const params = new URLSearchParams(searchParams.toString());
+                                  if(opt.key === 'points'){
+                                    params.delete('sort');
+                                    params.delete('order');
+                                  }else{
+                                    params.set('sort', opt.key);
+                                    params.set('order', 'desc');
+                                  }
+                                  // Reset to page 1 when sort changes
+                                  params.delete('page');
+                                  setCurrentPage(1);
+                                  if(typeof window !== 'undefined') 
+                                    window.history.replaceState(null, '', `${pathname}?${params.toString()}`);
+                                }}
+                                className={cn('w-full text-left px-4 py-2 cursor-pointer rounded-md text-sm', active ? 'bg-[#50B78B] text-white' : 'hover:bg-muted')}
+                                aria-pressed={active}
+                              >
+                                <div className="flex items-center justify-between">
+                                  <div>{opt.label}</div>
                                 </div>
-                              ))}
+                              </button>
+                            )
+                          })}
+                        </div>
+                        <h4 className="font-medium text-sm">
+                          Role
+                        </h4>
+                        <div className="space-y-2 max-h-64 overflow-y-auto px-4">
+                          {availableRoles.map((role) => (
+                            <div
+                              key={role}
+                              className="flex items-center space-x-2"
+                            >
+                              <Checkbox
+                                id={role}
+                                checked={selectedRoles.has(role)}
+                                onCheckedChange={() => toggleRole(role)}
+                              />
+                              <label
+                                htmlFor={role}
+                                className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer"
+                              >
+                                {role}
+                              </label>
                             </div>
-                          </div>
-                        </PopoverContent>
-                      </Popover>
-                    </div>
-                  
+                          ))}
+                        </div>
+                      </div>
+                    </PopoverContent>
+                  </Popover>
+                </div>
               </div>
             </div>
           </div>
@@ -693,18 +691,25 @@ export default function LeaderboardView({
                           )}
                         </div>
 
-                        {/* Avatar */}
-                        <Avatar className="size-14 shrink-0">
-                          <AvatarImage
-                            src={entry.avatar_url || undefined}
-                            alt={entry.name || entry.username}
-                          />
-                          <AvatarFallback>
-                            {(entry.name || entry.username)
-                              .substring(0, 2)
-                              .toUpperCase()}
-                          </AvatarFallback>
-                        </Avatar>
+                        {/* Avatar - NOW CLICKABLE */}
+                        <a
+                          href={`https://github.com/${entry.username}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="shrink-0"
+                        >
+                          <Avatar className="size-14 hover:ring-2 hover:ring-[#50B78B] transition-all cursor-pointer">
+                            <AvatarImage
+                              src={entry.avatar_url || undefined}
+                              alt={entry.name || entry.username}
+                            />
+                            <AvatarFallback>
+                              {(entry.name || entry.username)
+                                .substring(0, 2)
+                                .toUpperCase()}
+                            </AvatarFallback>
+                          </Avatar>
+                        </a>
 
                         {/* Contributor Info */}
                         <div className="flex-1 min-w-0">
