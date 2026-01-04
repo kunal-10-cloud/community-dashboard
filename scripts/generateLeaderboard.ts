@@ -1,26 +1,41 @@
-// scripts/generateLeaderboard.ts
+import fs from "fs";
+import path from "path";
 
 /* -------------------------------------------------------
-   TYPES
+   CONFIG
 ------------------------------------------------------- */
 
-/**
- * Shape expected by the leaderboard generator.
- * This is INTENTIONALLY decoupled from DB activity shape.
- */
-export type LeaderboardActivity = {
-  username: string;
-  name: string | null;
-  avatar_url: string;
-  role: string;
-  type: string;
-  points: number;
+const ORG = "CircuitVerse";
+const GITHUB_API = "https://api.github.com";
+const TOKEN = process.env.GITHUB_TOKEN;
+
+if (!TOKEN) {
+  throw new Error("❌ GITHUB_TOKEN is required");
+}
+
+/* -------------------------------------------------------
+   SCORING
+------------------------------------------------------- */
+
+const POINTS = {
+  "PR opened": 2,
+  "PR merged": 5,
+  "Issue opened": 1,
+} as const;
+
+/* -------------------------------------------------------
+   TYPES (EXPORTED — IMPORTANT)
+------------------------------------------------------- */
+
+export type RawActivity = {
+  type: "PR opened" | "PR merged" | "Issue opened";
   occured_at: string;
+  title?: string | null;
+  link?: string | null;
+  points: number;
 };
 
-type ActivityBreakdown = Record<string, { count: number; points: number }>;
-
-type DailyActivity = {
+export type DailyActivity = {
   date: string;
   count: number;
   points: number;
@@ -29,133 +44,372 @@ type DailyActivity = {
 export type Contributor = {
   username: string;
   name: string | null;
-  avatar_url: string;
+  avatar_url: string | null;
   role: string;
   total_points: number;
-  activity_breakdown: ActivityBreakdown;
+  activity_breakdown: Record<string, { count: number; points: number }>;
   daily_activity: DailyActivity[];
+  raw_activities: RawActivity[];
 };
 
 /**
- * Public shape used by JSON / frontend consumers
+ * 👇 REQUIRED BY lib/db.ts & FRONTEND
  */
-export type UserEntry = Contributor & {
-  activities?: {
-    type: string;
-    title?: string | null;
-    occured_at: string;
-    link?: string | null;
-    points: number;
-  }[];
+export type UserEntry = {
+  username: string;
+  name: string | null;
+  avatar_url: string | null;
+  role: string;
+  total_points: number;
+  activity_breakdown: Record<string, { count: number; points: number }>;
+  daily_activity: DailyActivity[];
+  activities?: RawActivity[];
 };
 
 /* -------------------------------------------------------
-   DB → LEADERBOARD MAPPER
+   UTILS
 ------------------------------------------------------- */
 
-export function mapDbActivityToLeaderboardActivity(
-  dbActivity: {
-    contributor: string;
-    contributor_name: string | null;
-    contributor_avatar_url: string | null;
-    contributor_role: string | null;
-    activity_definition: string;
-    occured_at: string;
-    points: number | null;
-    title?: string | null;
-    link?: string | null;
+function sleep(ms: number) {
+  return new Promise((r) => setTimeout(r, ms));
+}
+
+function iso(d: Date) {
+  return d.toISOString().split("T")[0];
+}
+
+function daysAgo(n: number) {
+  const d = new Date();
+  d.setDate(d.getDate() - n);
+  return d;
+}
+
+function sanitizeTitle(title?: string | null) {
+  if (!title) return null;
+  return title
+    .replace(/\[|\]/g, "")
+    .replace(/:/g, " - ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function isBotUser(user: any): boolean {
+  if (!user?.login) return true;
+  if (user.type && user.type !== "User") return true;
+  return user.login.endsWith("[bot]");
+}
+
+/* -------------------------------------------------------
+   GITHUB SEARCH (RATE + 1000 CAP SAFE)
+------------------------------------------------------- */
+
+async function ghSearch(url: string) {
+  const res = await fetch(url, {
+    headers: {
+      Authorization: `Bearer ${TOKEN}`,
+      Accept: "application/vnd.github+json",
+    },
+  });
+
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`GitHub API ${res.status}: ${text}`);
   }
-): LeaderboardActivity {
-  return {
-    username: dbActivity.contributor,
-    name: dbActivity.contributor_name,
-    avatar_url: dbActivity.contributor_avatar_url ?? "",
-    role: dbActivity.contributor_role ?? "Contributor",
-    type: dbActivity.activity_definition,
-    occured_at: dbActivity.occured_at,
-    points: dbActivity.points ?? 0,
-  };
+
+  // ⛔ Mandatory throttle (30 req/min)
+  await sleep(2500);
+
+  return res.json();
 }
 
-/* -------------------------------------------------------
-   NORMALIZE ACTIVITY LABEL
-------------------------------------------------------- */
+async function searchByDateChunks(
+  baseQuery: string,
+  start: Date,
+  end: Date,
+  stepDays = 30
+): Promise<any[]> {
+  const all: any[] = [];
+  let cursor = new Date(start);
 
-function normalizeActivityLabel(type: string): string | null {
-  const t = type.toLowerCase();
+  while (cursor < end) {
+    const from = iso(cursor);
+    const next = new Date(cursor);
+    next.setDate(next.getDate() + stepDays);
+    const to = next > end ? end : next;
 
-  if (t === "pull_request_opened") return "PR opened";
-  if (t === "pull_request_merged") return "PR merged";
-  if (t.includes("issue")) return "Issue opened";
-  if (t.includes("commit")) return "Commit";
-  if (t.includes("star")) return "Star";
+    console.log(`→ ${from} .. ${iso(to)}`);
 
-  return null;
-}
+    let page = 1;
+    while (true) {
+      const res = await ghSearch(
+        `${GITHUB_API}/search/issues?q=${baseQuery}+created:${from}..${iso(
+          to
+        )}&per_page=100&page=${page}`
+      );
 
-/* -------------------------------------------------------
-   SAFE BREAKDOWN MUTATION
-------------------------------------------------------- */
-
-function addToBreakdown(
-  breakdown: ActivityBreakdown,
-  label: string,
-  points: number
-) {
-  breakdown[label] ??= { count: 0, points: 0 };
-  breakdown[label].count += 1;
-  breakdown[label].points += points;
-}
-
-/* -------------------------------------------------------
-   MAIN LEADERBOARD GENERATOR (PURE)
-------------------------------------------------------- */
-
-export function generateLeaderboard(
-  activities: LeaderboardActivity[]
-): Contributor[] {
-  const contributors: Record<string, Contributor> = {};
-
-  for (const activity of activities) {
-    if (!activity.username) continue;
-
-    const contributor =
-      contributors[activity.username] ??= {
-        username: activity.username,
-        name: activity.name ?? null,
-        avatar_url: activity.avatar_url,
-        role: activity.role,
-        total_points: 0,
-        activity_breakdown: {},
-        daily_activity: [],
-      };
-
-    const label = normalizeActivityLabel(activity.type);
-    if (!label) continue;
-
-    addToBreakdown(
-      contributor.activity_breakdown,
-      label,
-      activity.points
-    );
-
-    contributor.total_points += activity.points;
-
-    // ---- DAILY ACTIVITY (SAFE DATE PARSING) ----
-    const parsedDate = new Date(activity.occured_at);
-    if (isNaN(parsedDate.getTime())) continue;
-
-    const date = parsedDate.toISOString().slice(0, 10);
-
-    let day = contributor.daily_activity.find(d => d.date === date);
-    if (!day) {
-      day = { date, count: 0, points: 0 };
-      contributor.daily_activity.push(day);
+      all.push(...(res.items ?? []));
+      if (!res.items || res.items.length < 100) break;
+      page++;
     }
 
-    day.count += 1;
-    day.points += activity.points;
+    cursor = to;
   }
 
-  return Object.values(contributors);
+  return all;
 }
+
+/* -------------------------------------------------------
+   CORE HELPERS
+------------------------------------------------------- */
+
+function ensureUser(
+  map: Map<string, Contributor>,
+  user: any
+): Contributor {
+  if (!map.has(user.login)) {
+    map.set(user.login, {
+      username: user.login,
+      name: user.name ?? null,
+      avatar_url: user.avatar_url ?? null,
+      role: "Contributor",
+      total_points: 0,
+      activity_breakdown: {},
+      daily_activity: [],
+      raw_activities: [],
+    });
+  }
+  return map.get(user.login)!;
+}
+
+function addActivity(
+  entry: Contributor,
+  type: RawActivity["type"],
+  date: string,
+  points: number,
+  meta?: { title?: string; link?: string }
+) {
+  const day = date.split("T")[0]!;
+
+  entry.total_points += points;
+
+  entry.activity_breakdown[type] ??= { count: 0, points: 0 };
+  entry.activity_breakdown[type].count += 1;
+  entry.activity_breakdown[type].points += points;
+
+  const existing = entry.daily_activity.find((d) => d.date === day);
+  if (existing) {
+    existing.count += 1;
+    existing.points += points;
+  } else {
+    entry.daily_activity.push({ date: day, count: 1, points });
+  }
+
+  entry.raw_activities.push({
+    type,
+    occured_at: date,
+    title: sanitizeTitle(meta?.title),
+    link: meta?.link ?? null,
+    points,
+  });
+}
+
+/* -------------------------------------------------------
+   GENERATE YEAR
+------------------------------------------------------- */
+
+async function generateYear() {
+  console.log("🚀 Generating leaderboard");
+
+  const since = daysAgo(365);
+  const now = new Date();
+  const users = new Map<string, Contributor>();
+
+  console.log("🔍 PRs opened");
+  for (const pr of await searchByDateChunks(`org:${ORG}+is:pr`, since, now)) {
+    if (isBotUser(pr.user)) continue;
+    addActivity(
+      ensureUser(users, pr.user),
+      "PR opened",
+      pr.created_at,
+      POINTS["PR opened"],
+      { title: pr.title, link: pr.html_url }
+    );
+  }
+
+  console.log("🔍 PRs merged");
+  for (const pr of await searchByDateChunks(
+    `org:${ORG}+is:pr+is:merged`,
+    since,
+    now
+  )) {
+    if (isBotUser(pr.user)) continue;
+    addActivity(
+      ensureUser(users, pr.user),
+      "PR merged",
+      pr.closed_at,
+      POINTS["PR merged"],
+      { title: pr.title, link: pr.html_url }
+    );
+  }
+
+  console.log("🔍 Issues opened");
+  for (const issue of await searchByDateChunks(
+    `org:${ORG}+is:issue`,
+    since,
+    now
+  )) {
+    if (isBotUser(issue.user)) continue;
+    addActivity(
+      ensureUser(users, issue.user),
+      "Issue opened",
+      issue.created_at,
+      POINTS["Issue opened"],
+      { title: issue.title, link: issue.html_url }
+    );
+  }
+
+  const entries = [...users.values()]
+    .filter((u) => u.total_points > 0)
+    .sort((a, b) => b.total_points - a.total_points);
+
+  const outDir = path.join(process.cwd(), "public", "leaderboard");
+  fs.mkdirSync(outDir, { recursive: true });
+
+  const yearData = {
+    period: "year",
+    updatedAt: Date.now(),
+    startDate: iso(since),
+    endDate: iso(now),
+    hiddenRoles: [],
+    topByActivity: {},
+    entries,
+  };
+
+  fs.writeFileSync(
+    path.join(outDir, "year.json"),
+    JSON.stringify(yearData, null, 2)
+  );
+
+  console.log(`✅ Generated year.json (${entries.length})`);
+
+  derivePeriod(yearData, 7, "week");
+  derivePeriod(yearData, 30, "month");
+  generateRecentActivities(yearData);
+}
+
+/* -------------------------------------------------------
+   DERIVED PERIODS
+------------------------------------------------------- */
+
+function derivePeriod(source: any, days: number, period: string) {
+  const cutoff = daysAgo(days);
+
+  const entries = source.entries
+    .map((entry: Contributor) => {
+      const acts = entry.raw_activities.filter(
+        (a) => new Date(a.occured_at) >= cutoff
+      );
+      if (acts.length === 0) return null;
+
+      const breakdown: Record<string, { count: number; points: number }> = {};
+      const daily: Record<string, DailyActivity> = {};
+      let total = 0;
+
+       for (const a of acts) {
+        const day = a.occured_at.split("T")[0]!;
+
+        total += a.points;
+
+        breakdown[a.type] ??= { count: 0, points: 0 };
+
+        const bucket =
+          breakdown[a.type] ?? (breakdown[a.type] = { count: 0, points: 0 });
+
+        bucket.count += 1;
+        bucket.points += a.points;
+
+        daily[day] ??= { date: day, count: 0, points: 0 };
+        daily[day].count += 1;
+        daily[day].points += a.points;
+      }
+
+      return {
+        username: entry.username,
+        name: entry.name,
+        avatar_url: entry.avatar_url,
+        role: entry.role,
+        total_points: total,
+        activity_breakdown: breakdown,
+        daily_activity: Object.values(daily),
+        activities: acts,
+      };
+    })
+    .filter(Boolean)
+    .sort((a: any, b: any) => b.total_points - a.total_points);
+
+  fs.writeFileSync(
+    path.join(process.cwd(), "public", "leaderboard", `${period}.json`),
+    JSON.stringify(
+      {
+        period,
+        updatedAt: Date.now(),
+        startDate: iso(cutoff),
+        endDate: iso(new Date()),
+        hiddenRoles: [],
+        topByActivity: {},
+        entries,
+      },
+      null,
+      2
+    )
+  );
+
+  console.log(`✅ Generated ${period}.json`);
+}
+
+/* -------------------------------------------------------
+   RECENT ACTIVITIES
+------------------------------------------------------- */
+
+function generateRecentActivities(source: any, days = 14) {
+  const cutoff = daysAgo(days);
+  const groups = new Map<string, any[]>();
+
+  for (const entry of source.entries) {
+    for (const act of entry.raw_activities) {
+      const day = act.occured_at.split("T")[0]!;
+      if (new Date(day) < cutoff) continue;
+
+      groups.set(day, groups.get(day) ?? []);
+      groups.get(day)!.push({
+        username: entry.username,
+        name: entry.name,
+        title: act.title,
+        link: act.link,
+        avatar_url: entry.avatar_url,
+        points: act.points,
+      });
+    }
+  }
+
+  fs.writeFileSync(
+    path.join(process.cwd(), "public", "leaderboard", "recent-activities.json"),
+    JSON.stringify(
+      { updatedAt: Date.now(), groups: [...groups.entries()] },
+      null,
+      2
+    )
+  );
+
+  console.log("✅ Generated recent-activities.json");
+}
+
+/* -------------------------------------------------------
+   RUN
+------------------------------------------------------- */
+
+generateYear().catch((e) => {
+  console.error("❌ Leaderboard generation failed");
+  console.error(e);
+  process.exit(1);
+});
