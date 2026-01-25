@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1769216587367,
+  "updatedAt": 1769303466410,
   "period": "Last_30days",
   "repos": [
     {
@@ -11,16 +11,16 @@
       "stars": 99,
       "forks": 304,
       "current": {
-        "pr_opened": 20,
-        "pr_merged": 10,
+        "pr_opened": 19,
+        "pr_merged": 7,
         "issue_created": 15,
-        "currentTotalContribution": 45
+        "currentTotalContribution": 41
       },
       "previous": {
-        "pr_merged": 7
+        "pr_merged": 10
       },
       "growth": {
-        "pr_merged": 3
+        "pr_merged": -3
       }
     },
     {
@@ -29,13 +29,13 @@
       "language": "JavaScript",
       "avatar_url": "https://avatars.githubusercontent.com/u/42944450?v=4",
       "html_url": "https://github.com/CircuitVerse/CircuitVerse",
-      "stars": 1137,
-      "forks": 1890,
+      "stars": 1138,
+      "forks": 1894,
       "current": {
-        "pr_opened": 103,
+        "pr_opened": 107,
         "pr_merged": 7,
         "issue_created": 42,
-        "currentTotalContribution": 152
+        "currentTotalContribution": 156
       },
       "previous": {
         "pr_merged": 8
@@ -92,19 +92,19 @@
       "language": "Dart",
       "avatar_url": "https://avatars.githubusercontent.com/u/42944450?v=4",
       "html_url": "https://github.com/CircuitVerse/mobile-app",
-      "stars": 89,
-      "forks": 129,
+      "stars": 90,
+      "forks": 130,
       "current": {
         "pr_opened": 8,
-        "pr_merged": 3,
+        "pr_merged": 2,
         "issue_created": 6,
-        "currentTotalContribution": 17
+        "currentTotalContribution": 16
       },
       "previous": {
-        "pr_merged": 0
+        "pr_merged": 1
       },
       "growth": {
-        "pr_merged": 3
+        "pr_merged": 1
       }
     },
     {
@@ -177,12 +177,12 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/42944450?v=4",
       "html_url": "https://github.com/CircuitVerse/yosys2digitaljs-server",
       "stars": 1,
-      "forks": 4,
+      "forks": 3,
       "current": {
-        "pr_opened": 0,
+        "pr_opened": 1,
         "pr_merged": 0,
-        "issue_created": 0,
-        "currentTotalContribution": 0
+        "issue_created": 1,
+        "currentTotalContribution": 2
       },
       "previous": {
         "pr_merged": 0
@@ -324,12 +324,12 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/42944450?v=4",
       "html_url": "https://github.com/CircuitVerse/cv-frontend-vue",
       "stars": 48,
-      "forks": 211,
+      "forks": 213,
       "current": {
-        "pr_opened": 89,
+        "pr_opened": 94,
         "pr_merged": 15,
-        "issue_created": 61,
-        "currentTotalContribution": 165
+        "issue_created": 63,
+        "currentTotalContribution": 172
       },
       "previous": {
         "pr_merged": 1
@@ -408,18 +408,18 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/42944450?v=4",
       "html_url": "https://github.com/CircuitVerse/community-dashboard",
       "stars": 10,
-      "forks": 37,
+      "forks": 38,
       "current": {
-        "pr_opened": 122,
-        "pr_merged": 94,
-        "issue_created": 114,
-        "currentTotalContribution": 330
+        "pr_opened": 115,
+        "pr_merged": 90,
+        "issue_created": 109,
+        "currentTotalContribution": 314
       },
       "previous": {
-        "pr_merged": 0
+        "pr_merged": 6
       },
       "growth": {
-        "pr_merged": 94
+        "pr_merged": 84
       }
     }
   ]
