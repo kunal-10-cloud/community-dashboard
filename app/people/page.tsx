@@ -262,7 +262,7 @@ export default function PeoplePage() {
             teamType="alumni"
           />
           <section id="contributors" className="mb-8 scroll-mt-28">
-            <div className="mb-8">
+            <div className="mb-8 text-center">
               <div className="mb-4">
                 <h2 className="text-3xl font-bold">
                   <span className="text-black dark:text-white">Community </span>
@@ -270,7 +270,7 @@ export default function PeoplePage() {
                 </h2>
               </div>
 
-              <p className="text-lg text-muted-foreground max-w-3xl mb-6">
+              <p className="text-lg text-muted-foreground max-w-3xl mb-6 mx-auto">
                 Amazing community members who contribute to CircuitVerse through
                 code, documentation, and more.
               </p>
