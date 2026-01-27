@@ -4,7 +4,6 @@ import path from "path";
 import { GitHubService } from "./services/github.service";
 import { ScoringEngine, POINTS } from "./services/scoring.service";
 import {
-  RawActivity,
   DailyActivity,
   Contributor,
   UserEntry,
