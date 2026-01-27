@@ -705,7 +705,12 @@ function generateRecentActivities(source: YearData, days = 14) {
   fs.writeFileSync(
     path.join(process.cwd(), "public", "leaderboard", "recent-activities.json"),
     JSON.stringify(
-      { updatedAt: Date.now(), groups: [...groups.entries()] },
+      {
+        updatedAt: Date.now(),
+        groups: Array.from(groups.entries()).sort((a, b) =>
+          b[0].localeCompare(a[0])
+        ),
+      },
       null,
       2
     )
