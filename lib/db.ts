@@ -63,9 +63,10 @@ export async function getRecentActivitiesGroupedByType(
   const groups = new Map<string, ActivityGroup>();
 
   for (const user of data.entries) {
-    if (!user.activities) continue;
+    const activities = user.activities || user.raw_activities;
+    if (!activities) continue;
 
-    for (const act of user.activities) {
+    for (const act of activities) {
       const type = act.type;
 
       if (!groups.has(type)) {
