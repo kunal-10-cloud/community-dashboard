@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1769480757348,
+  "updatedAt": 1769566927489,
   "period": "Last_30days",
   "repos": [
     {
@@ -11,10 +11,10 @@
       "stars": 99,
       "forks": 305,
       "current": {
-        "pr_opened": 20,
+        "pr_opened": 17,
         "pr_merged": 7,
-        "issue_created": 14,
-        "currentTotalContribution": 41
+        "issue_created": 12,
+        "currentTotalContribution": 36
       },
       "previous": {
         "pr_merged": 10
@@ -29,13 +29,13 @@
       "language": "JavaScript",
       "avatar_url": "https://avatars.githubusercontent.com/u/42944450?v=4",
       "html_url": "https://github.com/CircuitVerse/CircuitVerse",
-      "stars": 1142,
-      "forks": 1902,
+      "stars": 1144,
+      "forks": 1904,
       "current": {
-        "pr_opened": 113,
+        "pr_opened": 114,
         "pr_merged": 6,
-        "issue_created": 48,
-        "currentTotalContribution": 167
+        "issue_created": 50,
+        "currentTotalContribution": 170
       },
       "previous": {
         "pr_merged": 9
@@ -223,8 +223,8 @@
       "current": {
         "pr_opened": 0,
         "pr_merged": 0,
-        "issue_created": 3,
-        "currentTotalContribution": 3
+        "issue_created": 4,
+        "currentTotalContribution": 4
       },
       "previous": {
         "pr_merged": 0
@@ -324,18 +324,18 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/42944450?v=4",
       "html_url": "https://github.com/CircuitVerse/cv-frontend-vue",
       "stars": 49,
-      "forks": 219,
+      "forks": 221,
       "current": {
-        "pr_opened": 102,
-        "pr_merged": 22,
-        "issue_created": 66,
-        "currentTotalContribution": 190
+        "pr_opened": 104,
+        "pr_merged": 24,
+        "issue_created": 67,
+        "currentTotalContribution": 195
       },
       "previous": {
         "pr_merged": 1
       },
       "growth": {
-        "pr_merged": 21
+        "pr_merged": 23
       }
     },
     {
@@ -410,10 +410,10 @@
       "stars": 10,
       "forks": 40,
       "current": {
-        "pr_opened": 108,
+        "pr_opened": 106,
         "pr_merged": 85,
-        "issue_created": 100,
-        "currentTotalContribution": 293
+        "issue_created": 99,
+        "currentTotalContribution": 290
       },
       "previous": {
         "pr_merged": 15
