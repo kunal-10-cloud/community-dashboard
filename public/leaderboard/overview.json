@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1769654308033,
+  "updatedAt": 1769740705161,
   "period": "Last_30days",
   "repos": [
     {
@@ -9,12 +9,12 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/42944450?v=4",
       "html_url": "https://github.com/CircuitVerse/CircuitVerseDocs",
       "stars": 98,
-      "forks": 305,
+      "forks": 306,
       "current": {
-        "pr_opened": 17,
+        "pr_opened": 15,
         "pr_merged": 7,
-        "issue_created": 12,
-        "currentTotalContribution": 36
+        "issue_created": 10,
+        "currentTotalContribution": 32
       },
       "previous": {
         "pr_merged": 10
@@ -29,19 +29,19 @@
       "language": "JavaScript",
       "avatar_url": "https://avatars.githubusercontent.com/u/42944450?v=4",
       "html_url": "https://github.com/CircuitVerse/CircuitVerse",
-      "stars": 1145,
-      "forks": 1909,
+      "stars": 1146,
+      "forks": 1911,
       "current": {
-        "pr_opened": 112,
-        "pr_merged": 6,
-        "issue_created": 52,
-        "currentTotalContribution": 170
+        "pr_opened": 115,
+        "pr_merged": 8,
+        "issue_created": 54,
+        "currentTotalContribution": 177
       },
       "previous": {
-        "pr_merged": 9
+        "pr_merged": 8
       },
       "growth": {
-        "pr_merged": -3
+        "pr_merged": 0
       }
     },
     {
@@ -122,10 +122,10 @@
         "currentTotalContribution": 5
       },
       "previous": {
-        "pr_merged": 3
+        "pr_merged": 2
       },
       "growth": {
-        "pr_merged": -2
+        "pr_merged": -1
       }
     },
     {
@@ -326,16 +326,16 @@
       "stars": 50,
       "forks": 222,
       "current": {
-        "pr_opened": 104,
-        "pr_merged": 24,
-        "issue_created": 67,
-        "currentTotalContribution": 195
+        "pr_opened": 110,
+        "pr_merged": 25,
+        "issue_created": 71,
+        "currentTotalContribution": 206
       },
       "previous": {
-        "pr_merged": 1
+        "pr_merged": 0
       },
       "growth": {
-        "pr_merged": 23
+        "pr_merged": 25
       }
     },
     {
@@ -408,18 +408,18 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/42944450?v=4",
       "html_url": "https://github.com/CircuitVerse/community-dashboard",
       "stars": 10,
-      "forks": 40,
+      "forks": 41,
       "current": {
-        "pr_opened": 103,
-        "pr_merged": 83,
-        "issue_created": 97,
-        "currentTotalContribution": 283
+        "pr_opened": 100,
+        "pr_merged": 82,
+        "issue_created": 92,
+        "currentTotalContribution": 274
       },
       "previous": {
-        "pr_merged": 17
+        "pr_merged": 18
       },
       "growth": {
-        "pr_merged": 66
+        "pr_merged": 64
       }
     }
   ]
