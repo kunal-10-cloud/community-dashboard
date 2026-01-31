@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1769740705161,
+  "updatedAt": 1769826838640,
   "period": "Last_30days",
   "repos": [
     {
@@ -11,10 +11,10 @@
       "stars": 98,
       "forks": 306,
       "current": {
-        "pr_opened": 15,
+        "pr_opened": 14,
         "pr_merged": 7,
         "issue_created": 10,
-        "currentTotalContribution": 32
+        "currentTotalContribution": 31
       },
       "previous": {
         "pr_merged": 10
@@ -29,13 +29,13 @@
       "language": "JavaScript",
       "avatar_url": "https://avatars.githubusercontent.com/u/42944450?v=4",
       "html_url": "https://github.com/CircuitVerse/CircuitVerse",
-      "stars": 1146,
+      "stars": 1147,
       "forks": 1911,
       "current": {
-        "pr_opened": 115,
+        "pr_opened": 114,
         "pr_merged": 8,
         "issue_created": 54,
-        "currentTotalContribution": 177
+        "currentTotalContribution": 176
       },
       "previous": {
         "pr_merged": 8
@@ -51,12 +51,12 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/42944450?v=4",
       "html_url": "https://github.com/CircuitVerse/Interactive-Book",
       "stars": 158,
-      "forks": 237,
+      "forks": 236,
       "current": {
-        "pr_opened": 9,
+        "pr_opened": 8,
         "pr_merged": 3,
-        "issue_created": 8,
-        "currentTotalContribution": 20
+        "issue_created": 7,
+        "currentTotalContribution": 18
       },
       "previous": {
         "pr_merged": 0
@@ -95,10 +95,10 @@
       "stars": 90,
       "forks": 130,
       "current": {
-        "pr_opened": 9,
+        "pr_opened": 8,
         "pr_merged": 2,
         "issue_created": 6,
-        "currentTotalContribution": 17
+        "currentTotalContribution": 16
       },
       "previous": {
         "pr_merged": 1
@@ -326,10 +326,10 @@
       "stars": 50,
       "forks": 222,
       "current": {
-        "pr_opened": 110,
+        "pr_opened": 111,
         "pr_merged": 25,
-        "issue_created": 71,
-        "currentTotalContribution": 206
+        "issue_created": 72,
+        "currentTotalContribution": 208
       },
       "previous": {
         "pr_merged": 0
@@ -410,16 +410,16 @@
       "stars": 10,
       "forks": 41,
       "current": {
-        "pr_opened": 100,
-        "pr_merged": 82,
-        "issue_created": 92,
-        "currentTotalContribution": 274
+        "pr_opened": 98,
+        "pr_merged": 80,
+        "issue_created": 91,
+        "currentTotalContribution": 269
       },
       "previous": {
-        "pr_merged": 18
+        "pr_merged": 20
       },
       "growth": {
-        "pr_merged": 64
+        "pr_merged": 60
       }
     }
   ]
