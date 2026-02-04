@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1770086714283,
+  "updatedAt": 1770172760223,
   "period": "Last_30days",
   "repos": [
     {
@@ -11,16 +11,16 @@
       "stars": 98,
       "forks": 306,
       "current": {
-        "pr_opened": 13,
-        "pr_merged": 8,
-        "issue_created": 9,
-        "currentTotalContribution": 30
+        "pr_opened": 14,
+        "pr_merged": 7,
+        "issue_created": 10,
+        "currentTotalContribution": 31
       },
       "previous": {
-        "pr_merged": 10
+        "pr_merged": 11
       },
       "growth": {
-        "pr_merged": -2
+        "pr_merged": -4
       }
     },
     {
@@ -30,18 +30,18 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/42944450?v=4",
       "html_url": "https://github.com/CircuitVerse/CircuitVerse",
       "stars": 1150,
-      "forks": 1918,
+      "forks": 1923,
       "current": {
-        "pr_opened": 122,
+        "pr_opened": 125,
         "pr_merged": 7,
-        "issue_created": 52,
-        "currentTotalContribution": 181
+        "issue_created": 53,
+        "currentTotalContribution": 185
       },
       "previous": {
-        "pr_merged": 9
+        "pr_merged": 8
       },
       "growth": {
-        "pr_merged": -2
+        "pr_merged": -1
       }
     },
     {
@@ -51,7 +51,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/42944450?v=4",
       "html_url": "https://github.com/CircuitVerse/Interactive-Book",
       "stars": 158,
-      "forks": 236,
+      "forks": 237,
       "current": {
         "pr_opened": 8,
         "pr_merged": 3,
@@ -116,10 +116,10 @@
       "stars": 9,
       "forks": 70,
       "current": {
-        "pr_opened": 2,
+        "pr_opened": 1,
         "pr_merged": 0,
-        "issue_created": 1,
-        "currentTotalContribution": 3
+        "issue_created": 0,
+        "currentTotalContribution": 1
       },
       "previous": {
         "pr_merged": 2
@@ -326,16 +326,16 @@
       "stars": 50,
       "forks": 228,
       "current": {
-        "pr_opened": 122,
-        "pr_merged": 30,
+        "pr_opened": 119,
+        "pr_merged": 28,
         "issue_created": 78,
-        "currentTotalContribution": 230
+        "currentTotalContribution": 225
       },
       "previous": {
-        "pr_merged": 0
+        "pr_merged": 2
       },
       "growth": {
-        "pr_merged": 30
+        "pr_merged": 26
       }
     },
     {
@@ -410,16 +410,16 @@
       "stars": 10,
       "forks": 42,
       "current": {
-        "pr_opened": 80,
-        "pr_merged": 65,
-        "issue_created": 73,
-        "currentTotalContribution": 218
+        "pr_opened": 72,
+        "pr_merged": 60,
+        "issue_created": 59,
+        "currentTotalContribution": 191
       },
       "previous": {
-        "pr_merged": 36
+        "pr_merged": 41
       },
       "growth": {
-        "pr_merged": 29
+        "pr_merged": 19
       }
     }
   ]
