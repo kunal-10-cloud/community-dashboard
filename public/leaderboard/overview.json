@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1777520844048,
+  "updatedAt": 1777607987368,
   "period": "Last_30days",
   "repos": [
     {
@@ -30,12 +30,12 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/42944450?v=4",
       "html_url": "https://github.com/CircuitVerse/CircuitVerse",
       "stars": 1197,
-      "forks": 2018,
+      "forks": 2016,
       "current": {
         "pr_opened": 16,
         "pr_merged": 8,
-        "issue_created": 17,
-        "currentTotalContribution": 41
+        "issue_created": 15,
+        "currentTotalContribution": 39
       },
       "previous": {
         "pr_merged": 7
@@ -95,10 +95,10 @@
       "stars": 91,
       "forks": 142,
       "current": {
-        "pr_opened": 2,
+        "pr_opened": 1,
         "pr_merged": 0,
-        "issue_created": 3,
-        "currentTotalContribution": 5
+        "issue_created": 1,
+        "currentTotalContribution": 2
       },
       "previous": {
         "pr_merged": 0
@@ -178,27 +178,6 @@
       "html_url": "https://github.com/CircuitVerse/yosys2digitaljs-server",
       "stars": 1,
       "forks": 4,
-      "current": {
-        "pr_opened": 0,
-        "pr_merged": 0,
-        "issue_created": 0,
-        "currentTotalContribution": 0
-      },
-      "previous": {
-        "pr_merged": 0
-      },
-      "growth": {
-        "pr_merged": 0
-      }
-    },
-    {
-      "name": "CircuitVerse-Downpage",
-      "description": "Downtime page ",
-      "language": "HTML",
-      "avatar_url": "https://avatars.githubusercontent.com/u/42944450?v=4",
-      "html_url": "https://github.com/CircuitVerse/CircuitVerse-Downpage",
-      "stars": 2,
-      "forks": 12,
       "current": {
         "pr_opened": 0,
         "pr_merged": 0,
