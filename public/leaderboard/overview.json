@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1779250259247,
+  "updatedAt": 1779337188794,
   "period": "Last_30days",
   "repos": [
     {
@@ -32,16 +32,16 @@
       "stars": 1211,
       "forks": 2022,
       "current": {
-        "pr_opened": 14,
-        "pr_merged": 6,
+        "pr_opened": 15,
+        "pr_merged": 5,
         "issue_created": 9,
         "currentTotalContribution": 29
       },
       "previous": {
-        "pr_merged": 3
+        "pr_merged": 5
       },
       "growth": {
-        "pr_merged": 3
+        "pr_merged": 0
       }
     },
     {
