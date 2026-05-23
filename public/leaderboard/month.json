@@ -1,8 +1,8 @@
 {
   "period": "month",
-  "updatedAt": 1779423202762,
-  "startDate": "2026-04-22",
-  "endDate": "2026-05-22",
+  "updatedAt": 1779508325926,
+  "startDate": "2026-04-23",
+  "endDate": "2026-05-23",
   "hiddenRoles": [],
   "topByActivity": {},
   "entries": [
@@ -11,23 +11,23 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 50,
+      "total_points": 57,
       "activity_breakdown": {
         "PR opened": {
-          "count": 7,
-          "points": 14
+          "count": 8,
+          "points": 16
+        },
+        "Issue opened": {
+          "count": 8,
+          "points": 8
+        },
+        "Issue labeled": {
+          "count": 10,
+          "points": 20
         },
         "PR merged": {
           "count": 2,
           "points": 10
-        },
-        "Issue opened": {
-          "count": 7,
-          "points": 7
-        },
-        "Issue labeled": {
-          "count": 8,
-          "points": 16
         },
         "Issue closed": {
           "count": 3,
@@ -35,6 +35,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-05-22",
+          "count": 4,
+          "points": 7
+        },
         {
           "date": "2026-05-21",
           "count": 5,
@@ -82,6 +87,34 @@
         }
       ],
       "activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-22T23:15:33Z",
+          "title": "feat - add organization_members table migration",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7391",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-05-22T20:12:51Z",
+          "title": "Feature - Introduce core organization_members database table (GSoC 2026 - Project 6)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7390",
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-22T20:12:52Z",
+          "title": "Labeled issue #7390 - 🌟 feature",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7390",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-22T20:12:53Z",
+          "title": "Labeled issue #7390 - pending triage",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7390",
+          "points": 2
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-05-21T18:47:14Z",
@@ -687,6 +720,70 @@
       ]
     },
     {
+      "username": "JatsuAkaYashvant",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/146776812?v=4",
+      "role": "Maintainer",
+      "total_points": 12,
+      "activity_breakdown": {
+        "Issue labeled": {
+          "count": 6,
+          "points": 12
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-05-22",
+          "count": 6,
+          "points": 12
+        }
+      ],
+      "activities": [
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-22T06:05:10Z",
+          "title": "Labeled issue #597 - GSoC'26",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/597",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-22T06:05:53Z",
+          "title": "Labeled issue #597 - auth",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/597",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-22T06:03:41Z",
+          "title": "Labeled issue #596 - GSoC'26",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/596",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-22T06:02:12Z",
+          "title": "Labeled issue #595 - GSoC'26",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/595",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-22T06:06:50Z",
+          "title": "Labeled issue #594 - GSoC'26",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/594",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-22T06:09:36Z",
+          "title": "Labeled issue #594 - state-management",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/594",
+          "points": 2
+        }
+      ]
+    },
+    {
       "username": "Me-Priyank",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4",
@@ -1283,6 +1380,57 @@
       ]
     },
     {
+      "username": "amrendrasharma1328-a11y",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/244124972?v=4",
+      "role": "Contributor",
+      "total_points": 5,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 2
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 1
+        },
+        "Issue labeled": {
+          "count": 1,
+          "points": 2
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-05-22",
+          "count": 3,
+          "points": 5
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-22T07:59:02Z",
+          "title": "feat - add icons to dark mode toggle button",
+          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/783",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-05-22T07:42:29Z",
+          "title": "Add icons for Dark mode and GitHub buttons in header",
+          "link": "https://github.com/CircuitVerse/Interactive-Book/issues/782",
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-22T07:42:30Z",
+          "title": "Labeled issue #782 - 🌟 feature",
+          "link": "https://github.com/CircuitVerse/Interactive-Book/issues/782",
+          "points": 2
+        }
+      ]
+    },
+    {
       "username": "GarvSaxena",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/91243091?v=4",
@@ -1492,6 +1640,35 @@
           "occured_at": "2026-05-10T07:26:44Z",
           "title": "Labeled issue #179 - status",
           "link": "https://github.com/CircuitVerse/upptime/issues/179",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Sharan-Sanadi",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/271757352?v=4",
+      "role": "Contributor",
+      "total_points": 2,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 2
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-05-22",
+          "count": 1,
+          "points": 2
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-22T05:26:08Z",
+          "title": "feat - introduce gamification badges for EOD streaks",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/276",
           "points": 2
         }
       ]
