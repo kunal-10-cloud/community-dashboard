@@ -1,9 +1,9 @@
 {
   "period": "year",
-  "updatedAt": 1782274062098,
-  "lastFetchedAt": 1782274062098,
-  "startDate": "2025-06-24",
-  "endDate": "2026-06-24",
+  "updatedAt": 1782360470104,
+  "lastFetchedAt": 1782360470104,
+  "startDate": "2025-06-25",
+  "endDate": "2026-06-25",
   "hiddenRoles": [],
   "topByActivity": {},
   "entries": [
@@ -12,15 +12,15 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 821,
+      "total_points": 831,
       "activity_breakdown": {
+        "PR merged": {
+          "count": 40,
+          "points": 200
+        },
         "PR opened": {
           "count": 74,
           "points": 148
-        },
-        "PR merged": {
-          "count": 38,
-          "points": 190
         },
         "Issue opened": {
           "count": 69,
@@ -42,8 +42,8 @@
       "daily_activity": [
         {
           "date": "2026-06-24",
-          "count": 1,
-          "points": 5
+          "count": 3,
+          "points": 15
         },
         {
           "date": "2026-06-23",
@@ -578,18 +578,32 @@
       ],
       "raw_activities": [
         {
-          "type": "PR opened",
-          "occured_at": "2026-06-23T18:02:11Z",
-          "title": "fix - update concurrent-ruby, faraday, and oj for security advisories",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7553",
-          "points": 2
-        },
-        {
           "type": "PR merged",
           "occured_at": "2026-06-24T03:32:46Z",
           "title": "fix - update concurrent-ruby, faraday, and oj for security advisories",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7553",
           "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-06-24T15:30:58Z",
+          "title": "feat - Add Pundit policies for Organization and Group RBAC + Tests",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7493",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-06-24T14:30:56Z",
+          "title": "feat - Add Organization and OrganizationMember models and update User and Group associations",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7451",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-23T18:02:11Z",
+          "title": "fix - update concurrent-ruby, faraday, and oj for security advisories",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7553",
+          "points": 2
         },
         {
           "type": "Issue opened",
@@ -3160,11 +3174,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4",
       "role": "Contributor",
-      "total_points": 710,
+      "total_points": 712,
       "activity_breakdown": {
         "PR opened": {
-          "count": 40,
-          "points": 80
+          "count": 41,
+          "points": 82
         },
         "PR merged": {
           "count": 25,
@@ -3184,6 +3198,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-24",
+          "count": 1,
+          "points": 2
+        },
         {
           "date": "2026-06-17",
           "count": 1,
@@ -3441,6 +3460,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-24T07:39:12Z",
+          "title": "feat - add client-side Verilog synthesis via YoWASP WASM for offline Tauri desktop",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1111",
+          "points": 2
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-06-17T10:24:46Z",
@@ -6288,7 +6314,7 @@
     {
       "username": "tachyons",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/3112976?u=a7289671a2d228cf269bc52e064be89f13882e10&v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
       "role": "Maintainer",
       "total_points": 638,
       "activity_breakdown": {
@@ -9615,10 +9641,18 @@
     {
       "username": "Nihal4777",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/65150640?u=25493788d913676f586e5d8c10be801ad634e3c9&v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65150640?v=4",
       "role": "Maintainer",
-      "total_points": 473,
+      "total_points": 477,
       "activity_breakdown": {
+        "PR opened": {
+          "count": 24,
+          "points": 48
+        },
+        "Issue labeled": {
+          "count": 3,
+          "points": 6
+        },
         "Review submitted": {
           "count": 76,
           "points": 304
@@ -9627,17 +9661,9 @@
           "count": 53,
           "points": 53
         },
-        "PR opened": {
-          "count": 23,
-          "points": 46
-        },
         "PR merged": {
           "count": 10,
           "points": 50
-        },
-        "Issue labeled": {
-          "count": 2,
-          "points": 4
         },
         "Issue opened": {
           "count": 16,
@@ -9645,6 +9671,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-25",
+          "count": 2,
+          "points": 4
+        },
         {
           "date": "2026-06-23",
           "count": 1,
@@ -9987,6 +10018,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-25T02:23:40Z",
+          "title": "fix(vue-simulator) - pass VITE_BASE to build for correct asset URLs",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7560",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-25T03:25:21Z",
+          "title": "Labeled issue #7561 - 🐞 bug",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7561",
+          "points": 2
+        },
         {
           "type": "Review submitted",
           "occured_at": "2026-06-23T17:00:16Z",
@@ -25743,11 +25788,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/76901313?v=4",
       "role": "Maintainer",
-      "total_points": 189,
+      "total_points": 191,
       "activity_breakdown": {
         "Issue closed": {
-          "count": 9,
-          "points": 9
+          "count": 11,
+          "points": 11
         },
         "Review submitted": {
           "count": 45,
@@ -25757,8 +25802,8 @@
       "daily_activity": [
         {
           "date": "2026-06-24",
-          "count": 1,
-          "points": 1
+          "count": 3,
+          "points": 3
         },
         {
           "date": "2026-06-22",
@@ -25937,6 +25982,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-24T15:31:00Z",
+          "title": "Closed issue #7483 - Feature - Add Pundit Authorization Policies for Organizations and Organization Member",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7483",
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-24T14:30:57Z",
+          "title": "Closed issue #7446 - Feature - feat - Add Organization and OrganizationMember models",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7446",
+          "points": 1
+        },
         {
           "type": "Issue closed",
           "occured_at": "2026-06-24T03:32:47Z",
@@ -47114,6 +47173,84 @@
       ]
     },
     {
+      "username": "deepak0x",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/149673145?v=4",
+      "role": "Contributor",
+      "total_points": 7,
+      "activity_breakdown": {
+        "Issue opened": {
+          "count": 5,
+          "points": 5
+        },
+        "PR opened": {
+          "count": 1,
+          "points": 2
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-06-24",
+          "count": 4,
+          "points": 4
+        },
+        {
+          "date": "2026-06-23",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2026-06-22",
+          "count": 1,
+          "points": 1
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-24T10:13:33Z",
+          "title": "bug - sanitize_name before_action does not mutate the correct params key — project names stored unsanitized",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7559",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-24T10:13:13Z",
+          "title": "bug - NoMethodError crash in return_image_file when image param is nil",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7558",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-24T10:12:43Z",
+          "title": "bug - JSON.parse(nil) crash in project update",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7557",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-24T10:11:13Z",
+          "title": "bug - Project update called twice per request",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7556",
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-23T10:23:17Z",
+          "title": "fix - correct invalid MIME type for circuit preview attachment",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7550",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-22T12:43:14Z",
+          "title": "bug - Invalid MIME type 'img/jpeg' in circuit preview attachment",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7541",
+          "points": 1
+        }
+      ]
+    },
+    {
       "username": "gayatri728",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/214634310?v=4",
@@ -51492,51 +51629,6 @@
           "title": "Review on PR #5367",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5367",
           "points": 4
-        }
-      ]
-    },
-    {
-      "username": "deepak0x",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/149673145?v=4",
-      "role": "Contributor",
-      "total_points": 3,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 2
-        },
-        "Issue opened": {
-          "count": 1,
-          "points": 1
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-06-23",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2026-06-22",
-          "count": 1,
-          "points": 1
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-06-23T10:23:17Z",
-          "title": "fix - correct invalid MIME type for circuit preview attachment",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7550",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-06-22T12:43:14Z",
-          "title": "bug - Invalid MIME type 'img/jpeg' in circuit preview attachment",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7541",
-          "points": 1
         }
       ]
     },
