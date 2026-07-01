@@ -1,8 +1,8 @@
 {
   "period": "week",
-  "updatedAt": 1782792581587,
-  "startDate": "2026-06-23",
-  "endDate": "2026-06-30",
+  "updatedAt": 1782879929280,
+  "startDate": "2026-06-24",
+  "endDate": "2026-07-01",
   "hiddenRoles": [],
   "topByActivity": {},
   "entries": [
@@ -11,23 +11,23 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 38,
+      "total_points": 28,
       "activity_breakdown": {
         "PR opened": {
-          "count": 3,
-          "points": 6
+          "count": 2,
+          "points": 4
         },
         "Issue opened": {
-          "count": 3,
-          "points": 3
+          "count": 2,
+          "points": 2
         },
         "Issue labeled": {
-          "count": 7,
-          "points": 14
+          "count": 6,
+          "points": 12
         },
         "PR merged": {
-          "count": 3,
-          "points": 15
+          "count": 2,
+          "points": 10
         }
       },
       "daily_activity": [
@@ -43,13 +43,8 @@
         },
         {
           "date": "2026-06-24",
-          "count": 3,
-          "points": 15
-        },
-        {
-          "date": "2026-06-23",
-          "count": 3,
-          "points": 5
+          "count": 2,
+          "points": 10
         }
       ],
       "activities": [
@@ -125,13 +120,6 @@
         },
         {
           "type": "PR merged",
-          "occured_at": "2026-06-24T03:32:46Z",
-          "title": "fix - update concurrent-ruby, faraday, and oj for security advisories",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7553",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
           "occured_at": "2026-06-24T15:30:58Z",
           "title": "feat - Add Pundit policies for Organization and Group RBAC + Tests",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7493",
@@ -143,27 +131,6 @@
           "title": "feat - Add Organization and OrganizationMember models and update User and Group associations",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7451",
           "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-06-23T18:02:11Z",
-          "title": "fix - update concurrent-ruby, faraday, and oj for security advisories",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7553",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-06-23T17:51:59Z",
-          "title": "🐞 Bug - Update vulnerable gems reported by bundler-audit",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7552",
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-06-23T17:52:01Z",
-          "title": "Labeled issue #7552 - 🐞 bug",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7552",
-          "points": 2
         }
       ]
     },
@@ -172,7 +139,7 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/65150640?v=4",
       "role": "Maintainer",
-      "total_points": 18,
+      "total_points": 14,
       "activity_breakdown": {
         "PR opened": {
           "count": 1,
@@ -183,8 +150,8 @@
           "points": 5
         },
         "Review submitted": {
-          "count": 2,
-          "points": 8
+          "count": 1,
+          "points": 4
         },
         "Issue closed": {
           "count": 1,
@@ -200,11 +167,6 @@
           "date": "2026-06-25",
           "count": 5,
           "points": 14
-        },
-        {
-          "date": "2026-06-23",
-          "count": 1,
-          "points": 4
         }
       ],
       "activities": [
@@ -242,13 +204,6 @@
           "title": "Labeled issue #7561 - 🐞 bug",
           "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7561",
           "points": 2
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2026-06-23T17:00:16Z",
-          "title": "Review on PR #1100",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1100",
-          "points": 4
         }
       ]
     },
@@ -377,11 +332,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/149673145?v=4",
       "role": "Contributor",
-      "total_points": 8,
+      "total_points": 6,
       "activity_breakdown": {
         "PR opened": {
-          "count": 2,
-          "points": 4
+          "count": 1,
+          "points": 2
         },
         "Issue opened": {
           "count": 4,
@@ -398,11 +353,6 @@
           "date": "2026-06-24",
           "count": 4,
           "points": 4
-        },
-        {
-          "date": "2026-06-23",
-          "count": 1,
-          "points": 2
         }
       ],
       "activities": [
@@ -440,13 +390,6 @@
           "title": "bug - Project update called twice per request",
           "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7556",
           "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-06-23T10:23:17Z",
-          "title": "fix - correct invalid MIME type for circuit preview attachment",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7550",
-          "points": 2
         }
       ]
     },
@@ -476,49 +419,6 @@
           "title": "Review on PR #7563",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7563",
           "points": 4
-        }
-      ]
-    },
-    {
-      "username": "vedant-jain03",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/76901313?v=4",
-      "role": "Maintainer",
-      "total_points": 3,
-      "activity_breakdown": {
-        "Issue closed": {
-          "count": 3,
-          "points": 3
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-06-24",
-          "count": 3,
-          "points": 3
-        }
-      ],
-      "activities": [
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-06-24T15:31:00Z",
-          "title": "Closed issue #7483 - Feature - Add Pundit Authorization Policies for Organizations and Organization Member",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7483",
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-06-24T14:30:57Z",
-          "title": "Closed issue #7446 - Feature - feat - Add Organization and OrganizationMember models",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7446",
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-06-24T03:32:47Z",
-          "title": "Closed issue #7552 - 🐞 Bug - Update vulnerable gems reported by bundler-audit",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7552",
-          "points": 1
         }
       ]
     },
@@ -630,6 +530,42 @@
           "occured_at": "2026-06-29T09:11:06Z",
           "title": "Closed issue #1058 - Feature - Introduce Client-Side Verilog Synthesis via Web Worker for Tauri Desktop",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1058",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "username": "vedant-jain03",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/76901313?v=4",
+      "role": "Maintainer",
+      "total_points": 2,
+      "activity_breakdown": {
+        "Issue closed": {
+          "count": 2,
+          "points": 2
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-06-24",
+          "count": 2,
+          "points": 2
+        }
+      ],
+      "activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-24T15:31:00Z",
+          "title": "Closed issue #7483 - Feature - Add Pundit Authorization Policies for Organizations and Organization Member",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7483",
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-24T14:30:57Z",
+          "title": "Closed issue #7446 - Feature - feat - Add Organization and OrganizationMember models",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7446",
           "points": 1
         }
       ]
