@@ -1,8 +1,8 @@
 {
   "period": "week",
-  "updatedAt": 1782879929280,
-  "startDate": "2026-06-24",
-  "endDate": "2026-07-01",
+  "updatedAt": 1782965076736,
+  "startDate": "2026-06-25",
+  "endDate": "2026-07-02",
   "hiddenRoles": [],
   "topByActivity": {},
   "entries": [
@@ -11,8 +11,12 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 28,
+      "total_points": 23,
       "activity_breakdown": {
+        "PR merged": {
+          "count": 1,
+          "points": 5
+        },
         "PR opened": {
           "count": 2,
           "points": 4
@@ -24,13 +28,14 @@
         "Issue labeled": {
           "count": 6,
           "points": 12
-        },
-        "PR merged": {
-          "count": 2,
-          "points": 10
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-01",
+          "count": 1,
+          "points": 5
+        },
         {
           "date": "2026-06-28",
           "count": 5,
@@ -40,14 +45,16 @@
           "date": "2026-06-25",
           "count": 5,
           "points": 9
-        },
-        {
-          "date": "2026-06-24",
-          "count": 2,
-          "points": 10
         }
       ],
       "activities": [
+        {
+          "type": "PR merged",
+          "occured_at": "2026-07-01T16:24:08Z",
+          "title": "feat(organizations) - add location column to database and model valida…",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7563",
+          "points": 5
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-06-28T10:03:56Z",
@@ -117,93 +124,6 @@
           "title": "Labeled issue #7562 - GSoC'26",
           "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7562",
           "points": 2
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-06-24T15:30:58Z",
-          "title": "feat - Add Pundit policies for Organization and Group RBAC + Tests",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7493",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-06-24T14:30:56Z",
-          "title": "feat - Add Organization and OrganizationMember models and update User and Group associations",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7451",
-          "points": 5
-        }
-      ]
-    },
-    {
-      "username": "Nihal4777",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/65150640?v=4",
-      "role": "Maintainer",
-      "total_points": 14,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 2
-        },
-        "PR merged": {
-          "count": 1,
-          "points": 5
-        },
-        "Review submitted": {
-          "count": 1,
-          "points": 4
-        },
-        "Issue closed": {
-          "count": 1,
-          "points": 1
-        },
-        "Issue labeled": {
-          "count": 1,
-          "points": 2
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-06-25",
-          "count": 5,
-          "points": 14
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-06-25T02:23:40Z",
-          "title": "fix(vue-simulator) - pass VITE_BASE to build for correct asset URLs",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7560",
-          "points": 2
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-06-25T04:18:25Z",
-          "title": "fix(vue-simulator) - pass VITE_BASE to build for correct asset URLs",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7560",
-          "points": 5
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2026-06-25T14:25:33Z",
-          "title": "Review on PR #1100",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1100",
-          "points": 4
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-06-25T14:25:48Z",
-          "title": "Closed issue #1099 - 🐞 Bug - vuesim Remove the previous ui link option",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1099",
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-06-25T03:25:21Z",
-          "title": "Labeled issue #7561 - 🐞 bug",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7561",
-          "points": 2
         }
       ]
     },
@@ -266,13 +186,13 @@
       "role": "Contributor",
       "total_points": 10,
       "activity_breakdown": {
-        "PR merged": {
-          "count": 1,
-          "points": 5
-        },
         "PR opened": {
           "count": 2,
           "points": 4
+        },
+        "PR merged": {
+          "count": 1,
+          "points": 5
         },
         "Issue opened": {
           "count": 1,
@@ -280,6 +200,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-01",
+          "count": 1,
+          "points": 2
+        },
         {
           "date": "2026-06-29",
           "count": 1,
@@ -289,14 +214,16 @@
           "date": "2026-06-26",
           "count": 2,
           "points": 3
-        },
-        {
-          "date": "2026-06-24",
-          "count": 1,
-          "points": 2
         }
       ],
       "activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-01T17:06:08Z",
+          "title": "feat - add human-readable syntax error messages for Verilog synthesis",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1116",
+          "points": 2
+        },
         {
           "type": "PR merged",
           "occured_at": "2026-06-29T09:11:04Z",
@@ -317,78 +244,56 @@
           "title": "Improve error handling in client-side synthesis to show human-readable syntax errors",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1113",
           "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-06-24T07:39:12Z",
-          "title": "feat - add client-side Verilog synthesis via YoWASP WASM for offline Tauri desktop",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1111",
-          "points": 2
         }
       ]
     },
     {
-      "username": "deepak0x",
+      "username": "Nihal4777",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/149673145?v=4",
-      "role": "Contributor",
-      "total_points": 6,
+      "avatar_url": "https://avatars.githubusercontent.com/u/65150640?v=4",
+      "role": "Maintainer",
+      "total_points": 10,
       "activity_breakdown": {
-        "PR opened": {
+        "PR merged": {
           "count": 1,
-          "points": 2
+          "points": 5
         },
-        "Issue opened": {
-          "count": 4,
+        "Review submitted": {
+          "count": 1,
           "points": 4
+        },
+        "Issue closed": {
+          "count": 1,
+          "points": 1
         }
       },
       "daily_activity": [
         {
-          "date": "2026-06-27",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2026-06-24",
-          "count": 4,
-          "points": 4
+          "date": "2026-06-25",
+          "count": 3,
+          "points": 10
         }
       ],
       "activities": [
         {
-          "type": "PR opened",
-          "occured_at": "2026-06-27T22:47:53Z",
-          "title": "fix - guard nil image param in simulator_helper to prevent NoMethodError (#7558)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7566",
-          "points": 2
+          "type": "PR merged",
+          "occured_at": "2026-06-25T04:18:25Z",
+          "title": "fix(vue-simulator) - pass VITE_BASE to build for correct asset URLs",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7560",
+          "points": 5
         },
         {
-          "type": "Issue opened",
-          "occured_at": "2026-06-24T10:13:33Z",
-          "title": "bug - sanitize_name before_action does not mutate the correct params key — project names stored unsanitized",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7559",
-          "points": 1
+          "type": "Review submitted",
+          "occured_at": "2026-06-25T14:25:33Z",
+          "title": "Review on PR #1100",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1100",
+          "points": 4
         },
         {
-          "type": "Issue opened",
-          "occured_at": "2026-06-24T10:13:13Z",
-          "title": "bug - NoMethodError crash in return_image_file when image param is nil",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7558",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-06-24T10:12:43Z",
-          "title": "bug - JSON.parse(nil) crash in project update",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7557",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-06-24T10:11:13Z",
-          "title": "bug - Project update called twice per request",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7556",
+          "type": "Issue closed",
+          "occured_at": "2026-06-25T14:25:48Z",
+          "title": "Closed issue #1099 - 🐞 Bug - vuesim Remove the previous ui link option",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1099",
           "points": 1
         }
       ]
@@ -535,37 +440,59 @@
       ]
     },
     {
-      "username": "vedant-jain03",
+      "username": "deepak0x",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/76901313?v=4",
-      "role": "Maintainer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/149673145?v=4",
+      "role": "Contributor",
       "total_points": 2,
       "activity_breakdown": {
-        "Issue closed": {
-          "count": 2,
+        "PR opened": {
+          "count": 1,
           "points": 2
         }
       },
       "daily_activity": [
         {
-          "date": "2026-06-24",
-          "count": 2,
+          "date": "2026-06-27",
+          "count": 1,
           "points": 2
         }
       ],
       "activities": [
         {
-          "type": "Issue closed",
-          "occured_at": "2026-06-24T15:31:00Z",
-          "title": "Closed issue #7483 - Feature - Add Pundit Authorization Policies for Organizations and Organization Member",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7483",
+          "type": "PR opened",
+          "occured_at": "2026-06-27T22:47:53Z",
+          "title": "fix - guard nil image param in simulator_helper to prevent NoMethodError (#7558)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7566",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "vedant-jain03",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/76901313?v=4",
+      "role": "Maintainer",
+      "total_points": 1,
+      "activity_breakdown": {
+        "Issue closed": {
+          "count": 1,
           "points": 1
-        },
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-07-01",
+          "count": 1,
+          "points": 1
+        }
+      ],
+      "activities": [
         {
           "type": "Issue closed",
-          "occured_at": "2026-06-24T14:30:57Z",
-          "title": "Closed issue #7446 - Feature - feat - Add Organization and OrganizationMember models",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7446",
+          "occured_at": "2026-07-01T16:24:09Z",
+          "title": "Closed issue #7562 - Feature - Add location field to Organizations",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7562",
           "points": 1
         }
       ]
