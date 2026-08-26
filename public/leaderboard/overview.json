@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787622008238,
+  "updatedAt": 1787708689188,
   "period": "Last_30days",
   "repos": [
     {
@@ -32,16 +32,16 @@
       "stars": 1247,
       "forks": 2073,
       "current": {
-        "pr_opened": 59,
-        "pr_merged": 21,
+        "pr_opened": 58,
+        "pr_merged": 20,
         "issue_created": 21,
-        "currentTotalContribution": 101
+        "currentTotalContribution": 99
       },
       "previous": {
-        "pr_merged": 8
+        "pr_merged": 9
       },
       "growth": {
-        "pr_merged": 13
+        "pr_merged": 11
       }
     },
     {
@@ -326,16 +326,16 @@
       "stars": 63,
       "forks": 271,
       "current": {
-        "pr_opened": 31,
-        "pr_merged": 11,
-        "issue_created": 26,
-        "currentTotalContribution": 68
+        "pr_opened": 29,
+        "pr_merged": 12,
+        "issue_created": 28,
+        "currentTotalContribution": 69
       },
       "previous": {
         "pr_merged": 21
       },
       "growth": {
-        "pr_merged": -10
+        "pr_merged": -9
       }
     },
     {
