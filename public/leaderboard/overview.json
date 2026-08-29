@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787914500999,
+  "updatedAt": 1787985707450,
   "period": "Last_30days",
   "repos": [
     {
@@ -9,7 +9,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/42944450?v=4",
       "html_url": "https://github.com/CircuitVerse/CircuitVerseDocs",
       "stars": 98,
-      "forks": 312,
+      "forks": 313,
       "current": {
         "pr_opened": 1,
         "pr_merged": 0,
@@ -30,12 +30,12 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/42944450?v=4",
       "html_url": "https://github.com/CircuitVerse/CircuitVerse",
       "stars": 1249,
-      "forks": 2074,
+      "forks": 2075,
       "current": {
-        "pr_opened": 56,
+        "pr_opened": 57,
         "pr_merged": 20,
-        "issue_created": 22,
-        "currentTotalContribution": 98
+        "issue_created": 23,
+        "currentTotalContribution": 100
       },
       "previous": {
         "pr_merged": 10
@@ -324,7 +324,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/42944450?v=4",
       "html_url": "https://github.com/CircuitVerse/cv-frontend-vue",
       "stars": 63,
-      "forks": 272,
+      "forks": 273,
       "current": {
         "pr_opened": 30,
         "pr_merged": 11,
