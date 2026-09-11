@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1789013364733,
+  "updatedAt": 1789099674469,
   "period": "Last_30days",
   "repos": [
     {
@@ -8,8 +8,8 @@
       "language": "JavaScript",
       "avatar_url": "https://avatars.githubusercontent.com/u/42944450?v=4",
       "html_url": "https://github.com/CircuitVerse/CircuitVerseDocs",
-      "stars": 98,
-      "forks": 314,
+      "stars": 99,
+      "forks": 315,
       "current": {
         "pr_opened": 2,
         "pr_merged": 0,
@@ -29,19 +29,19 @@
       "language": "JavaScript",
       "avatar_url": "https://avatars.githubusercontent.com/u/42944450?v=4",
       "html_url": "https://github.com/CircuitVerse/CircuitVerse",
-      "stars": 1256,
-      "forks": 2087,
+      "stars": 1257,
+      "forks": 2086,
       "current": {
-        "pr_opened": 43,
-        "pr_merged": 10,
-        "issue_created": 15,
-        "currentTotalContribution": 68
+        "pr_opened": 39,
+        "pr_merged": 8,
+        "issue_created": 17,
+        "currentTotalContribution": 64
       },
       "previous": {
-        "pr_merged": 17
+        "pr_merged": 20
       },
       "growth": {
-        "pr_merged": -7
+        "pr_merged": -12
       }
     },
     {
@@ -50,7 +50,7 @@
       "language": "JavaScript",
       "avatar_url": "https://avatars.githubusercontent.com/u/42944450?v=4",
       "html_url": "https://github.com/CircuitVerse/Interactive-Book",
-      "stars": 167,
+      "stars": 168,
       "forks": 250,
       "current": {
         "pr_opened": 1,
@@ -92,13 +92,13 @@
       "language": "Dart",
       "avatar_url": "https://avatars.githubusercontent.com/u/42944450?v=4",
       "html_url": "https://github.com/CircuitVerse/mobile-app",
-      "stars": 92,
+      "stars": 93,
       "forks": 145,
       "current": {
-        "pr_opened": 8,
+        "pr_opened": 7,
         "pr_merged": 4,
         "issue_created": 0,
-        "currentTotalContribution": 12
+        "currentTotalContribution": 11
       },
       "previous": {
         "pr_merged": 1
@@ -326,16 +326,16 @@
       "stars": 64,
       "forks": 279,
       "current": {
-        "pr_opened": 41,
-        "pr_merged": 16,
-        "issue_created": 34,
-        "currentTotalContribution": 91
+        "pr_opened": 46,
+        "pr_merged": 19,
+        "issue_created": 41,
+        "currentTotalContribution": 106
       },
       "previous": {
         "pr_merged": 12
       },
       "growth": {
-        "pr_merged": 4
+        "pr_merged": 7
       }
     },
     {
