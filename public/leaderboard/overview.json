@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1789099674469,
+  "updatedAt": 1789186100490,
   "period": "Last_30days",
   "repos": [
     {
@@ -29,19 +29,19 @@
       "language": "JavaScript",
       "avatar_url": "https://avatars.githubusercontent.com/u/42944450?v=4",
       "html_url": "https://github.com/CircuitVerse/CircuitVerse",
-      "stars": 1257,
+      "stars": 1259,
       "forks": 2086,
       "current": {
-        "pr_opened": 39,
-        "pr_merged": 8,
-        "issue_created": 17,
-        "currentTotalContribution": 64
+        "pr_opened": 41,
+        "pr_merged": 7,
+        "issue_created": 19,
+        "currentTotalContribution": 67
       },
       "previous": {
         "pr_merged": 20
       },
       "growth": {
-        "pr_merged": -12
+        "pr_merged": -13
       }
     },
     {
@@ -117,15 +117,15 @@
       "forks": 74,
       "current": {
         "pr_opened": 6,
-        "pr_merged": 5,
+        "pr_merged": 6,
         "issue_created": 0,
-        "currentTotalContribution": 11
+        "currentTotalContribution": 12
       },
       "previous": {
         "pr_merged": 2
       },
       "growth": {
-        "pr_merged": 3
+        "pr_merged": 4
       }
     },
     {
@@ -326,16 +326,16 @@
       "stars": 64,
       "forks": 279,
       "current": {
-        "pr_opened": 46,
-        "pr_merged": 19,
-        "issue_created": 41,
-        "currentTotalContribution": 106
+        "pr_opened": 47,
+        "pr_merged": 20,
+        "issue_created": 42,
+        "currentTotalContribution": 109
       },
       "previous": {
         "pr_merged": 12
       },
       "growth": {
-        "pr_merged": 7
+        "pr_merged": 8
       }
     },
     {
