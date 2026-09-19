@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1789704789672,
+  "updatedAt": 1789790971176,
   "period": "Last_30days",
   "repos": [
     {
@@ -29,19 +29,19 @@
       "language": "JavaScript",
       "avatar_url": "https://avatars.githubusercontent.com/u/42944450?v=4",
       "html_url": "https://github.com/CircuitVerse/CircuitVerse",
-      "stars": 1263,
-      "forks": 2091,
+      "stars": 1265,
+      "forks": 2095,
       "current": {
-        "pr_opened": 36,
+        "pr_opened": 33,
         "pr_merged": 5,
-        "issue_created": 21,
-        "currentTotalContribution": 62
+        "issue_created": 22,
+        "currentTotalContribution": 60
       },
       "previous": {
-        "pr_merged": 20
+        "pr_merged": 18
       },
       "growth": {
-        "pr_merged": -15
+        "pr_merged": -13
       }
     },
     {
@@ -95,10 +95,10 @@
       "stars": 93,
       "forks": 145,
       "current": {
-        "pr_opened": 10,
+        "pr_opened": 11,
         "pr_merged": 4,
-        "issue_created": 1,
-        "currentTotalContribution": 15
+        "issue_created": 3,
+        "currentTotalContribution": 18
       },
       "previous": {
         "pr_merged": 0
@@ -116,10 +116,10 @@
       "stars": 8,
       "forks": 74,
       "current": {
-        "pr_opened": 6,
+        "pr_opened": 7,
         "pr_merged": 6,
         "issue_created": 0,
-        "currentTotalContribution": 12
+        "currentTotalContribution": 13
       },
       "previous": {
         "pr_merged": 0
@@ -324,12 +324,12 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/42944450?v=4",
       "html_url": "https://github.com/CircuitVerse/cv-frontend-vue",
       "stars": 64,
-      "forks": 282,
+      "forks": 284,
       "current": {
         "pr_opened": 48,
         "pr_merged": 19,
-        "issue_created": 44,
-        "currentTotalContribution": 111
+        "issue_created": 39,
+        "currentTotalContribution": 106
       },
       "previous": {
         "pr_merged": 8
