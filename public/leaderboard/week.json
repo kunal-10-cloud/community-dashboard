@@ -1,8 +1,8 @@
 {
   "period": "week",
-  "updatedAt": 1791609686109,
-  "startDate": "2026-10-03",
-  "endDate": "2026-10-10",
+  "updatedAt": 1791695604893,
+  "startDate": "2026-10-04",
+  "endDate": "2026-10-11",
   "hiddenRoles": [],
   "topByActivity": {},
   "entries": [
@@ -346,78 +346,6 @@
       ]
     },
     {
-      "username": "cynicalmindset",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/166590584?v=4",
-      "role": "Contributor",
-      "total_points": 10,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 2,
-          "points": 4
-        },
-        "Issue opened": {
-          "count": 2,
-          "points": 2
-        },
-        "Issue labeled": {
-          "count": 2,
-          "points": 4
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-10-03",
-          "count": 6,
-          "points": 10
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-10-03T20:28:48Z",
-          "title": "fix(vuesim) - preserve connected wires when resizing TTY rows and columns",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1365",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-10-03T19:47:31Z",
-          "title": "fix(vuesim) - synchronize outputBitWidth on newBitWidth in Verilog modules (#1362)",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1363",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-10-03T20:02:38Z",
-          "title": "🐞 Bug - Changing TTY rows or columns deletes all connected wires",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1364",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-10-03T19:28:57Z",
-          "title": "🐞 Bug - outputBitWidth de-synchronization on newBitWidth() in Verilog arithmetic elements",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1362",
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-10-03T20:02:39Z",
-          "title": "Labeled issue #1364 - 🐞 bug",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1364",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-10-03T19:28:58Z",
-          "title": "Labeled issue #1362 - 🐞 bug",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1362",
-          "points": 2
-        }
-      ]
-    },
-    {
       "username": "iamtanishqjain",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/71930864?v=4",
@@ -435,6 +363,11 @@
       },
       "daily_activity": [
         {
+          "date": "2026-10-10",
+          "count": 2,
+          "points": 3
+        },
+        {
           "date": "2026-10-08",
           "count": 2,
           "points": 3
@@ -443,14 +376,23 @@
           "date": "2026-10-04",
           "count": 2,
           "points": 3
-        },
-        {
-          "date": "2026-10-03",
-          "count": 2,
-          "points": 3
         }
       ],
       "activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-10-10T18:49:49Z",
+          "title": "fix(vuesim) - add the missing Verilog modules for Dlatch, JK and SR in v1",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1389",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-10-10T18:50:13Z",
+          "title": "🐞 Bug - v1 Verilog export omits the module for D Latch, JK and SR flip flops",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1390",
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-10-08T14:21:38Z",
@@ -477,20 +419,6 @@
           "occured_at": "2026-10-04T14:45:42Z",
           "title": "🐞 Bug - Help button opens the docs home page for 21 elements, old docsify URLs left behind",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1371",
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-10-03T16:18:16Z",
-          "title": "fix(vuesim) - keep a Flag's box fitting its name after undo or reload",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1359",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-10-03T16:18:23Z",
-          "title": "🐞 Bug - a Flag's box stops fitting its name after undo or reload",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1360",
           "points": 1
         }
       ]
@@ -700,6 +628,11 @@
       },
       "daily_activity": [
         {
+          "date": "2026-10-10",
+          "count": 1,
+          "points": 2
+        },
+        {
           "date": "2026-10-05",
           "count": 1,
           "points": 2
@@ -708,14 +641,16 @@
           "date": "2026-10-04",
           "count": 1,
           "points": 2
-        },
-        {
-          "date": "2026-10-03",
-          "count": 1,
-          "points": 2
         }
       ],
       "activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-10-10T16:39:57Z",
+          "title": "fix - reuse one SES client across mail deliveries (#7994)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8004",
+          "points": 2
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-10-05T14:19:29Z",
@@ -728,13 +663,6 @@
           "occured_at": "2026-10-04T18:43:10Z",
           "title": "fix - batch star lookups in project serializer to avoid N+1 (#7968)",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7977",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-10-03T17:59:42Z",
-          "title": "fix - batch star lookups in project serializer to avoid N+1 (#7968)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7969",
           "points": 2
         }
       ]
@@ -945,9 +873,9 @@
       ]
     },
     {
-      "username": "pinankshah8-Aa",
+      "username": "magic-peach",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/226854365?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/146705736?v=4",
       "role": "Contributor",
       "total_points": 2,
       "activity_breakdown": {
@@ -958,7 +886,7 @@
       },
       "daily_activity": [
         {
-          "date": "2026-10-03",
+          "date": "2026-10-10",
           "count": 1,
           "points": 2
         }
@@ -966,9 +894,9 @@
       "activities": [
         {
           "type": "PR opened",
-          "occured_at": "2026-10-03T17:34:06Z",
-          "title": "fix(vuesim) - use preset in D flip-flop Verilog",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1361",
+          "occured_at": "2026-10-10T07:07:52Z",
+          "title": "feat(assignments) - add student grading result view",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8003",
           "points": 2
         }
       ]
@@ -1179,35 +1107,6 @@
           "occured_at": "2026-10-05T18:06:15Z",
           "title": "fix - correct 32-bit Adder and ALU carry-out on overflow (#4984)",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7981",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "username": "Rishabh-377",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/252416684?v=4",
-      "role": "Contributor",
-      "total_points": 2,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 2
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-10-03",
-          "count": 1,
-          "points": 2
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-10-03T20:19:17Z",
-          "title": "feat(simulator) - add load data input pin to RAM and EEPROM",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7970",
           "points": 2
         }
       ]
